@@ -1,0 +1,10 @@
+nro de registros: 7
+ _____________________________________________________________________
+|007    |Maria                                     |fusca               |
+|123    |Sebastiao                           |brasilia            |
+|150    |Jose                                       |variant             |
+|001    |Elisete                                  |vemaguete           |
+|035    |Sebastiao                           |landau              |
+|040    |Doralice                              |opala               |
+|200    |Clotilde                               |maverick            |
+ ---------------------------------------------------------------------
