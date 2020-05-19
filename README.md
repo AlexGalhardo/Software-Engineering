@@ -148,10 +148,6 @@
       - <img src="big-o-names.jpeg" alt="Big(O) Names">
       - <img src="big-o-graphic.jpeg" alt="Big(O) Graphic">
 
-## Resumo Big(O)
-<img class="img-fluid w-100" src="https://raw.githubusercontent.com/AlexGalhardo/Engenharia-de-Software/master/big-o-names.jpeg" alt="image">
-<img class="img-fluid w-100" src="https://raw.githubusercontent.com/AlexGalhardo/Engenharia-de-Software/master/big-o-graphic.jpeg" alt="image">
-
 ## Segurança da Informação
 
  - Sites
