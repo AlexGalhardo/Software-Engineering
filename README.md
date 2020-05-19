@@ -233,7 +233,6 @@
 
 
 <h2>Clean Code</h2>
-<hr>
 <p>Ao definir um nome, precisamos ter em mente dois pontos principais:</p>
 <ul>
 <li>Ser preciso: precisamos passar a ideia central da nossa variável ou método, sem dar voltas, sendo conciso e direto.</li>
@@ -255,7 +254,6 @@
 
 <br>
 <h2>Keep It Simple Stupid - KISS</h2>
-<hr>
 <p>Testes limpos seguem as regras do acrônimo FIRST (Fast, Indepedent, Repeatable, Self-validation, Timely).</p>
 
 <ul>
@@ -268,7 +266,6 @@
 
 <br>
 <h2>Don't Repeat Yourself - DRY</h2>
-<hr>
 <p>DRY é o acrônimo para Don’t repeat yourself (Não repita a si mesmo). É o conceito que diz que cada parte de conhecimento do sistema deve possuir apenas uma representação. Desta forma, evitando a ambiguidade do código. Em outras palavras, não deve existir duas partes do programa que desempenham a mesma função, ou seja, o famoso copiar e colar no código.
 
 <p>Mas porque evitar repetição? Simples!</p>
