@@ -155,22 +155,10 @@
     - [EUGDPR.org](https://eugdpr.org/)
     - [LGPD - Lei Geral de Proteção de Dados Pessoais](http://www.planalto.gov.br/ccivil_03/_Ato2015-2018/2018/Lei/L13709.htm)
     - [Haveibeenpwned](https://haveibeenpwned.com/)
-    - [Livro - Fundamentos de Engenharia Reversa - Mente Binária](https://mentebinaria.gitbook.io/engenharia-reversa/antes-de-comecar)
-    - [Forum CaveiraTech](https://caveiratech.com/forum/)
     - [Oauth2](https://oauth.net/2/)
     - [Practical Cryptography for Developers - Free Book](https://cryptobook.nakov.com/)
- - Videos
+ - YouTube
     - [Gabriel Pato](https://www.youtube.com/channel/UC70YG2WHVxlOJRng4v-CIFQ)
-    - [CaveiraTech](https://www.youtube.com/user/caveiratech2/playlists)
-    - [Curso de Engenharia Reversa Online - Papo Binário](https://www.youtube.com/watch?v=IkUfXfnnKH4&list=PLIfZMtpPYFP6zLKlnyAeWY1I85VpyshAA)
- - Cursos 
-    - [Fundamentos de Ethical Hacking - Udemy](https://www.udemy.com/fundamentos-de-ethical-hacking/learn/v4/)
-    - [Solyd.com.br](https://solyd.com.br)
-    - [Técnicas de Invasão](https://tecnicasdeinvasao.com/)
-    - [Desenvolimento de Software Seguro - Curso Online Gratuito - ICA Instituto ](https://desenvolvimentoseguro.icainstituto.com.br/)
- - [DAT Protocol](https://www.datprotocol.com/)
-    - [DatProject.org](https://datproject.org)
-    - [Try Dat](https://try-dat.com/)
  - Banco de dados
     - World's Fastest Password Cracker
        - [HashCat](https://hashcat.net/hashcat/)
@@ -202,7 +190,7 @@
      - DataBases
         - [Exploit-DB](https://www.exploit-db.com/)
         - [SQLMap](http://sqlmap.org/)
-     - Useful CLI Commands
+     - CLI Commands
         - [$ nmap site_url](https://nmap.org/)
         - [$ traceroute site_url](https://www.lifewire.com/traceroute-linux-command-4092586)
         - [$ nmap localhost](https://nmap.org/)
