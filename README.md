@@ -1,15 +1,108 @@
-## Roadmap Software Engineering
+## Referências
 
+- [The Art of Computer Programming - Donald Knuth](https://www.amazon.com.br/Computer-Programming-Volumes-1-4a-Boxed/dp/0321751043/ref=sr_1_1?qid=1575407297&refinements=p_lbr_books_authors_browse-bin%3ADonald+E.+Knuth&s=books&sr=1-1)
+- [Clean Code: A Handbook of Agile Software Craftsmanship - Robert C. Martin Series](https://www.amazon.com.br/dp/B001GSTOAM/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
+- [The Mythical Man-Month: Essays on Software Engineering](https://www.amazon.com.br/Mythical-Man-Month-Anniversary-Software-Engineering-ebook/dp/B00B8USS14/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=11LSVPQBNSMUS&keywords=the+mythical+man-month+essays+on+software+engineering&qid=1568834047&s=gateway&sprefix=The+Mythical+Man-Month%3A+Essays+on+Software+Engineering%2Caps%2C338&sr=8-1)
+- [Eletrônica – Para Autodidatas, Estudantes e Técnicos – 2ª Edição, de Gabriel Torres](https://pay.hotmart.com/U8059089S?checkoutMode=10&utm_source=site&utm_medium=link&utm_content=link&utm_campaign=organico&sck=site&bid=1584206239824)
+- [Rob Pike's 5 Rules of Programming](https://users.ece.utexas.edu/~adnan/pike.html)
+- https://martinfowler.com/
+- [Livro Clean Architecture - Uncle Bob](https://imasters.com.br/back-end/introducao-clean-architecture)
 - [Teach Yourself Programming in Ten Years - Peter Norvig](http://norvig.com/21-days.html)
 - [Coding Interview University](https://github.com/jwasham/coding-interview-university)
 - [Teach Yourself CS](https://teachyourselfcs.com/)
 - [Web Developer Roadmap](https://github.com/kamranahmedse/developer-roadmap)
 
-## Ferramentas Úteis
+## Princípios
+- “Software ruim que adicionar valor > Software perfeito que não adiciona valor.”
+- “Aprenda a dizer: Eu NÃO Sei, e caso necessário, procure aprender.”
+- “Otimização prematura: a raiz de todo mal.”
+- “Lembre-se que os dinossauros quase sempre são as melhores referências.”
+- “Quem pensa pouco, erra muito” - Leonardo da Vinci
+- “Em Deus eu confio. Todos os outros devem trazer dados.”
+- “Falta de dinheiro é a raíz de todo mal.”
+- “Não existe bala de prata.”
+- “Fazer funcionar > Fazer de forma correta.”
+- “Aumentar receitas > diminuir custos.”
+- “SaaS > PaaS > IaaS > In-House”
+- “Você != Unicórnio”
+- “Sempre tente entender o que está acontecendo debaixo dos panos.”
+- “Escrever código != programar != engenharia de software”
+- “Manutenção > Perfomance”
+- “Sem métricas, sem otimização”
+- “Nunca pare de questionar”
+- “Engenharia de software é 80% PENSANDO sobre o problema, e 20% COMO resolver o problema.”
+- “Quanto mais conhecimento você tiver, menos você sabe. EGO = 1 / conhecimento.”
+- “Todo mundo deveria se importar com qualidade”
+- “Pelo menos 80% do código de um bom software foi refeito, diminuido ou melhor ainda, deletado. Menos é mais.”
+- “2+2 não é 5, não importa quantas pessoas digam isso.”
+- “Princípios > Analogia.”
+- “Converse e aprenda com pessoas mais inteligentes do que você.”
+- “Sempre tente usar a única fonte da verdade.”
+- “Não reinvente a roda. É para isso que existe frameworks e bibliotecas prontas.”
+- “Sempre é bom estudar uma ferramenta profundamente antes de colocar em produção.”
+- “Modularização é tudo.”
+- “Bons artistas copiam, grandes artistas roubam.”
+- “Inovação só existe em um mundo de restrição, e não abundância.”
+- “Sempre vai existir alguma coisa para melhorar. Feito é melhor que perfeito.”
 
-- [Anki](https://apps.ankiweb.net/)
- 
- 
+## Clean Architecture
+- <img src="https://user-images.githubusercontent.com/19540357/81711643-3ff91280-944a-11ea-8062-233c6134aed2.jpg">
+
+## HTTP
+<ul>
+<li><a href="https://hpbn.co">High Performance Browser Networking </a></li>
+<li><a href="https://http2.github.io/http2-spec/">Hypertext Transfer Protocol Version 2 (HTTP/2)</a></li>
+<li><a href="https://www.youtube.com/watch?v=r5oT_2ndjms&t=10s">HTTP/2 101 (Chrome Dev Summit 2015)</a></li>
+<li><a href="https://developers.google.com/web/fundamentals/performance/http2?hl=pt-br">Introdução a HTTP/2 Google Developers</a></li>
+<li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTTP">https://developer.mozilla.org/pt-BR/docs/Web/HTTP</a></li>
+<li><a href="https://pt.wikipedia.org/wiki/Lista_de_campos_de_cabe%C3%A7alho_HTTP">Lista de campos de cabeçalho HTTP</a></li>
+<li><a href="https://www.youtube.com/watch?v=d_5iZJ8p9x8">Protocolo HTTP em detalhes #2 - Teoria</a></li>
+<li><a href="https://www.casadocodigo.com.br/products/livro-desconstruindo-web">Livro: Desconstruindo a Web - As tecnologias por trás de uma requisição</a></li>
+<li><a href="https://www.youtube.com/watch?v=GrHtpPksUF4">Sérgio Lopes - [Web.br 2015] HTTP/2</a></li>
+<li><a href="https://www.youtube.com/watch?v=EMCBd3kw4zs">Sérgio Lopes - Desafios práticos de performance Web - BrazilJS Conf 2016</a></li>
+<li><a href="https://kinsta.com/pt/blog/http3/">O Que É HTTP/3 – A Verdade Sobre o Novo Protocolo Baseado em UDP</a></li>
+<li><a href="https://kinsta.com/pt/aprenda/http2/">O que é HTTP/2 – O Guia Final</a></li>
+</ul>
+
+## Microservices
+<ul>
+<li><a href="https://martinfowler.com/microservices/">https://martinfowler.com/microservices/</a></li>
+<li><a href="http://blog.cleancoder.com/uncle-bob/2015/05/28/TheFirstMicroserviceArchitecture.html">http://blog.cleancoder.com/uncle-bob/2015/05/28/TheFirstMicroserviceArchitecture.html</a></li>
+<li><a href="https://martinfowler.com/articles/microservices.html">https://martinfowler.com/articles/microservices.html</a></li>
+<li><a href="https://www.redhat.com/pt-br/topics/microservices">https://www.redhat.com/pt-br/topics/microservices</a></li>
+<li><a href="https://www.redhat.com/pt-br/topics/microservices/what-are-microservices">https://www.redhat.com/pt-br/topics/microservices/what-are-microservices</a></li>
+</ul>
+<p>Microsserviços são uma abordagem de arquitetura para a criação de aplicações. O que diferencia a arquitetura de microsserviços das abordagens monolíticas tradicionais é como ela decompõe a aplicação por funções básicas. Cada função é denominada um serviço e pode ser criada e implantada de maneira independente. Isso significa que cada serviço individual pode funcionar ou falhar sem comprometer os demais.</p>
+<img src="https://user-images.githubusercontent.com/19540357/82092070-ee14ee80-96ce-11ea-8a1b-9a5ca23f6cab.png" class="w-100 img-fluid">
+<p>Pense na última vez em que você acessou o site de uma loja. Provavelmente, você usou a barra de pesquisa do site para procurar produtos. Essa pesquisa representa um serviço. Talvez você também tenha visto recomendações de produtos relacionados, extraídas de um banco de dados das preferências dos compradores. Isso também é um serviço. Você adicionou algum item ao carrinho de compras? Isso mesmo, esse é mais um serviço.</p>
+<img src="https://user-images.githubusercontent.com/19540357/82092072-ef461b80-96ce-11ea-8075-33de76f90301.png" class="img-fluid w-100">
+<p>Quais são os benefícios da arquitetura de microsserviços?</p>
+<p>Com os microsserviços, suas equipes e tarefas rotineiras podem se tornar mais eficientes por meio do desenvolvimento distribuído. Além disso, é possível desenvolver vários microsserviços ao mesmo tempo. Isso significa que você pode ter mais desenvolvedores trabalhando simultaneamente na mesma aplicação, o que resulta em menos tempo gasto com desenvolvimento.</p>
+<ul>
+<li>Lançamento no mercado com mais rapidez => Como os ciclos de desenvolvimento são reduzidos, a arquitetura de microsserviços é compatível com implantações e atualizações mais ágeis.</li>
+<li>Altamente escalável => À medida que a demanda por determinados serviços aumenta, você pode fazer implantações em vários servidores e infraestruturas para atender às suas necessidades.</li>
+<li>Resiliente => Os serviços independentes, se construídos corretamente, não afetam uns aos outros. Isso significa que, se um elemento falhar, o restante da aplicação permanece em funcionamento, diferentemente do modelo monolítico.</li>
+<li>Fácil de implementar => Como as aplicações baseadas em microsserviços são mais modulares e menores do que as aplicações monolíticas tradicionais, as preocupações resultantes dessas implantações são invalidadas. Isso requer uma coordenação maior, mas as recompensas podem ser extraordinárias.</li>
+<li>Acessível => Como a aplicação maior é decomposta em partes menores, os desenvolvedores têm mais facilidade para entender, atualizar e aprimorar essas partes. Isso resulta em ciclos de desenvolvimento mais rápidos, principalmente quando também são empregadas as tecnologias de desenvolvimento ágil.</li>
+<li>Mais open source => Devido ao uso de APIs poliglotas, os desenvolvedores têm liberdade para escolher a melhor linguagem e tecnologia para a função necessária.</li>
+</ul>
+
+## Twelve Factor App
+<ul>
+<li>I. Base de Código -> Uma base de código com rastreamento utilizando controle de revisão, muitos deploys</li>
+<li>II. Dependências -> Declare e isole as dependências</li>
+<li>III. Configurações -> Armazene as configurações no ambiente</li>
+<li>IV. Serviços de Apoio -> Trate os serviços de apoio, como recursos ligados</li>
+<li>V. Build, release, run -> Separe estritamente os builds e execute em estágios</li>
+<li>VI. Processos -> Execute a aplicação como um ou mais processos que não armazenam estado</li>
+<li>VII. Vínculo de porta -> Exporte serviços por ligação de porta</li>
+<li>VIII. Concorrência -> Dimensione por um modelo de processo</li>
+<li>IX. Descartabilidade -> Maximizar a robustez com inicialização e desligamento rápido</li>
+<li>X. Dev/prod semelhantes -> Mantenha o desenvolvimento, teste, produção o mais semelhante possível</li>
+<li>XI. Logs -> Trate logs como fluxo de eventos</li>
+<li>XII. Processos de Admin -> Executar tarefas de administração/gerenciamento como processos pontuais</li>
+</ul>
+
 ## Algoritmos e Estrutura de Dados
 
  - YouTube
