@@ -156,9 +156,13 @@
     - [LGPD - Lei Geral de Proteção de Dados Pessoais](http://www.planalto.gov.br/ccivil_03/_Ato2015-2018/2018/Lei/L13709.htm)
     - [Haveibeenpwned](https://haveibeenpwned.com/)
     - [Oauth2](https://oauth.net/2/)
+    - https://doc.libsodium.org/
     - [Practical Cryptography for Developers - Free Book](https://cryptobook.nakov.com/)
  - YouTube
     - [Gabriel Pato](https://www.youtube.com/channel/UC70YG2WHVxlOJRng4v-CIFQ)
+ - Segurança Web
+    - https://content-security-policy.com/
+    - [O que é HTTP Content-Security-Policy e como utilizar no PHP](https://jssantos.net/2020/04/o-que-e-http-content-security-policy-e-como-utilizar-no-php/?doing_wp_cron=1588603449.3327989578247070312500&utm_campaign=A%20Semana%20PHP&utm_medium=email&utm_source=Revue%20newsletter)
  - Banco de dados
     - World's Fastest Password Cracker
        - [HashCat](https://hashcat.net/hashcat/)
