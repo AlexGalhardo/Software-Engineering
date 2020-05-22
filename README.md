@@ -343,6 +343,10 @@
 ## HTML
 - [HEAD - A list of everything that *could* go in the head of your document](https://github.com/joshbuchea/HEAD)
 - https://www.browserstack.com/
+- Highlight Code
+   - https://prismjs.com/
+   - https://highlightjs.org/
+   - https://craig.is/making/rainbows
 
 ## APIs
 - Imagens
