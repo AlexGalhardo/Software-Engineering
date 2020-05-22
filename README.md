@@ -220,6 +220,126 @@
   - [Scrum Poker Online](https://scrumpoker.online/)
 
 
+## Benchmarks
+- https://www.phoronix-test-suite.com/
+
+## Resumo Rápido GIT
+
+#### Referências
+- https://github.com/DanielHe4rt/git4noobs
+- https://danielkummer.github.io/git-flow-cheatsheet/index.pt_BR.html
+- https://www.atlassian.com/br/git/tutorials/comparing-workflows/gitflow-workflow
+
+#### Tools
+- https://www.sourcetreeapp.com/
+- https://desktop.github.com/
+- https://www.gitkraken.com/
+
+#### Install Git
+- $ sudo apt install -y git
+
+#### Iniciar git dentro do repositório
+- $ git init
+
+#### Adicionar arquivo para o stage
+- $ echo "Hello He4rt Devs" > index.html
+- $ git add ola.txt
+
+#### Adicionar todos os arquivos para o stage
+- $ git add .
+
+#### Fazer commit com comentário
+- $ git commit -m 'comentario_here'
+
+#### Criar Branch development
+- $ git checkout -b development
+- $ git branch
+
+#### Merge branch development to master
+- $ git checkout master
+- $ git merge development
+
+#### Adicionar local remoto
+- $ git remote add github url_github_here
+
+#### Push branch master para local remoto
+- $ git push github master 
+
+#### Pegar arquivos(pull) da branch master do local remoto
+- $ git pull github master 
+
+#### Ver todos os logs dos commits
+- $ git log
+
+#### Ver todas as alteraões feitas em cada commit
+- $ git show 
+
+#### Push outra branch para local remoto
+- $ git push github dev
+
+#### Ver alterações feitas antes do git add
+- $ git diff
+
+#### Deletar .git local
+- $ rm -rf .git 
+
+#### Apagar Diretório Remoto
+- $ git remote rm diretorio
+
+#### Apagar arquivo ola.txt do git stage
+- $ git rm ola.txt -f
+
+#### Apagar todos os arquivos dentro de um diretório forçado e de forma recursiva
+- $ git rm nome_pasta/. -fr
+
+#### Apagar branch locamente
+- $ git branch -D <nome do branch>
+
+#### Apagar branch remoto
+- $ git push <nome do origin> <nome do branch> --delete
+
+#### Evitar de algum arquivo não ser visto pelo git
+- Criar arquivo chamado ".gitignore" (adicionar arquivos que não serão vistos pelo git dentro deste arquivo)
+
+#### GIT Fetch All Branchs
+- https://stackoverflow.com/questions/10312521/how-to-fetch-all-git-branches
+- $ git fetch --all
+
+#### GIT Pull All Branchs
+- $ git pull --all
+
+#### GIT Push All Branchs To All Remotes
+- https://stackoverflow.com/questions/5785549/able-to-push-to-all-git-remotes-with-the-one-command
+- $ git remote | xargs -L1 git push --all
+- $ git remote | xargs -L1 -I R git push R master (push master)
+
+#### Revert to GIT Hash
+- $ git revert a867b4af..0766c053
+
+#### GIT Clear History
+- $ rm -rf .git
+- $ git init
+- $ git add .
+- $ git commit -m "Initial commit"
+- $ git remote add origin git@github.com:<YOUR ACCOUNT>/<YOUR REPOS>.git
+- $ git push -u --force origin master
+
+#### Desinstalar GIT
+- $ sudo apt-get remove git
+- $ sudo apt-get remove --auto-remove git
+- $ sudo apt-get purge git
+- $ sudo apt-get purge --auto-remove git
+
+
+## Forked Repositories
+- https://github.com/AlexGalhardo/ux4noobs
+- https://github.com/AlexGalhardo/DesignPatternsPHP
+- https://github.com/AlexGalhardo/awesome-php
+- https://github.com/AlexGalhardo/CheatSheetSeries (OWASP)
+- https://github.com/AlexGalhardo/docker-para-desenvolvedores
+- https://github.com/AlexGalhardo/public-apis
+- https://github.com/AlexGalhardo/hello.js (Oauth2 JS REST)
+
 <h2>Clean Code</h2>
 <p>Ao definir um nome, precisamos ter em mente dois pontos principais:</p>
 <ul>
