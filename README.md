@@ -340,6 +340,152 @@
 - https://github.com/AlexGalhardo/public-apis
 - https://github.com/AlexGalhardo/hello.js (Oauth2 JS REST)
 
+## HTML
+- [HEAD - A list of everything that *could* go in the head of your document](https://github.com/joshbuchea/HEAD)
+
+## APIs
+- Otimização de Imagens
+   - https://www.imgix.com/
+- JSON Structure Reference
+   - https://jsonapi.org/
+- Documentação
+   - https://swagger.io/
+   - https://apiblueprint.org/
+   - https://apidocjs.com/
+   - https://insomnia.rest/products/designer/
+   - https://learning.postman.com/docs/postman/api-documentation/documenting-your-api/
+- Ferramentas
+   - [Insomnia](https://insomnia.rest/download/)
+   - [Postman](https://www.getpostman.com/)
+   - [JSON-Server](https://github.com/typicode/json-server)
+   - [Axios](https://github.com/axios/axios)
+   - [RequestBin](https://requestbin.fullcontact.com/)
+   - [RestTestTest](http://resttesttest.com/)
+   - [Public Apis](https://github.com/toddmotto/public-apis)
+   - [Advanced Rest Client Chrome](https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo)
+   - [JSON Viewer Chrome](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=pt-BR)
+- DataSet
+   - https://aws.amazon.com/opendata/
+- EndPoints
+   - https://github.com/public-apis/public-apis
+   - https://hgbrasil.com/status/finance
+   - https://www.mercadobitcoin.com.br/api-doc/
+   - https://www.coindesk.com/coindesk-api
+   - https://docs.awesomeapi.com.br/api-de-moedas
+   - https://advisor.climatempo.com.br/
+   - https://openweathermap.org/api
+   - https://swapi.dev/
+   - https://api.github.com/users/alexgalhardo
+   - http://www.omdbapi.com/
+   - https://developers.themoviedb.org/3/getting-started/introduction
+   - https://www.igdb.com/api
+
+## Operation System
+- https://www.balena.io/etcher/
+- https://lubuntu.me/downloads/ (I Recommend Lubuntu 18.04 LTS :muscle:)
+
+## Premium IDEs
+- https://www.jetbrains.com/
+
+## DB GUI Softwares
+- [SequelPRO](https://www.sequelpro.com/)
+- [Dbeaver](https://dbeaver.io/download/)
+- [HeidiSQL](https://www.heidisql.com/)
+- [MySQL WorkBench](https://www.mysql.com/products/workbench/)
+- [SQLectron](https://sqlectron.github.io/)
+- [Postico](https://eggerapps.at/postico/)
+- https://www.adminer.org/
+- [Chrome MySQL Admin](https://chrome.google.com/webstore/detail/chrome-mysql-admin/ndgnpnpakfcdjmpgmcaknimfgcldechn)
+- https://robomongo.org/
+
+## TinyMCE Editor
+- https://www.tiny.cloud/
+- https://www.tiny.cloud/drive/
+
+## BarCode
+- https://serratus.github.io/quaggaJS/
+- https://packagist.org/packages/picqer/php-barcode-generator
+
+## Graphics
+- https://www.chartjs.org/
+
+## Masks
+- https://imask.js.org/guide.html
+- https://igorescobar.github.io/jQuery-Mask-Plugin/
+
+## Testing & Code Quality & CI & CD
+- https://www.jenkins.io/
+- https://codeclimate.com/
+- https://travis-ci.com/
+- http://phpdox.de/
+- https://styleci.io/
+- https://circleci.com/
+- https://newrelic.com/
+- https://phpstan.org/
+- https://codecov.io/
+- https://psalm.dev/
+- https://blackfire.io/
+- https://scrutinizer-ci.com/
+- https://docs.phpdoc.org/latest/
+- https://keepachangelog.com/pt-BR/1.0.0/
+- https://prometheus.io/
+
+## Regex
+- [Livro Online Expressões Regulares - Uma abordagem divertida - Aurelio Jargas](http://piazinho.com.br/)
+- [Regex101](https://regex101.com/)
+- [RegexR](https://regexr.com/)
+
+## CDN
+- [CDN Planet](https://www.cdnplanet.com/)
+- [StackPath](https://www.stackpath.com/)
+- [CloudFlare](https://www.cloudflare.com/)
+
+## Static Hosts
+- [Netlify](https://www.netlify.com/)
+- [GithubPages](https://pages.github.com/)
+
+## Domain
+- [RegistroBR](https://registro.br/)
+- [GoDaddy](https://br.godaddy.com/)
+- [GoogleDomains](https://get.dev/)
+- [NameCheap](https://www.namecheap.com)
+- [Name.com](https://www.name.com/) 
+
+## Sites & Softwares Úteis
+- https://www.submarinecablemap.com/
+- https://www.similartech.com/
+- https://w3techs.com/
+- https://archive.org/web/
+- https://desktop.github.com/
+- https://www.gitkraken.com/
+- https://hyper.is/
+- https://ngrok.com/
+- https://www.lastpass.com/pt
+- https://w3techs.com/
+- https://placeholder.com/
+- https://emojipedia.org
+- https://www.getrevue.co/
+- https://dillinger.io/
+- https://choosealicense.com/
+- https://enable-cors.org/
+- https://schema.org/
+
+## Programação Funcional
+  - [Aprender Haskell será um grande bem para você](http://haskell.tailorfontela.com.br/)
+
+## Plugins JS
+- PACE: Automatic page load progress bar => https://github.hubspot.com/pace/docs/welcome/
+- JS Notifications => https://github.com/CodeSeven/toastr
+
+## FontAwesomeIcons 
+- https://www.tutorialrepublic.com/font-awesome-icons.php
+
+## Open Source
+  - [OpenSource.org](https://opensource.org/)
+  - [OpenSource.guide](https://opensource.guide/)
+  - [Creative Commons](https://creativecommons.org/)
+  - https://allcontributors.org/
+
 <h2>Clean Code</h2>
 <p>Ao definir um nome, precisamos ter em mente dois pontos principais:</p>
 <ul>
