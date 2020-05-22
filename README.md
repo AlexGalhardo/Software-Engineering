@@ -342,10 +342,12 @@
 
 ## HTML
 - [HEAD - A list of everything that *could* go in the head of your document](https://github.com/joshbuchea/HEAD)
+- https://www.browserstack.com/
 
 ## APIs
-- Otimização de Imagens
+- Imagens
    - https://www.imgix.com/
+   - https://cloudinary.com/
 - JSON Structure Reference
    - https://jsonapi.org/
 - Documentação
