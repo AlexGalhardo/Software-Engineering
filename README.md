@@ -1,4 +1,4 @@
-## Referências
+## References
 
 - [The Art of Computer Programming - Donald Knuth](https://www.amazon.com.br/Computer-Programming-Volumes-1-4a-Boxed/dp/0321751043/ref=sr_1_1?qid=1575407297&refinements=p_lbr_books_authors_browse-bin%3ADonald+E.+Knuth&s=books&sr=1-1)
 - [Clean Code: A Handbook of Agile Software Craftsmanship - Robert C. Martin Series](https://www.amazon.com.br/dp/B001GSTOAM/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
@@ -12,7 +12,7 @@
 - [Teach Yourself CS](https://teachyourselfcs.com/)
 - [Web Developer Roadmap](https://github.com/kamranahmedse/developer-roadmap)
 
-## Princípios
+## Principles
 - “Software ruim que adicionar valor > Software perfeito que não adiciona valor.”
 - “Aprenda a dizer: Eu NÃO Sei, e caso necessário, procure aprender.”
 - “Otimização prematura: a raiz de todo mal.”
@@ -66,6 +66,121 @@
 <li><a href="https://kinsta.com/pt/blog/http3/">O Que É HTTP/3 – A Verdade Sobre o Novo Protocolo Baseado em UDP</a></li>
 <li><a href="https://kinsta.com/pt/aprenda/http2/">O que é HTTP/2 – O Guia Final</a></li>
 </ul>
+
+### Methods
+ 
+ - POST vs PUT vs PATCH
+    - Use POST para criação de novos recursos em endpoints de coleção, como api.biblioteca.com/livros.
+    - Use PUT para atualização de recursos em endpoints de entidade, como api.biblioteca.com/livros/iliada.
+    - Use PATCH para atualização parcial de recursos, também em endpoints de entidade.
+ - Resumo
+ ```
+ +-----------------------------+-----+------+-----+-------+--------+
+ |                             | GET | POST | PUT | PATCH | DELETE |
+ +-----------------------------+-----+------+-----+-------+--------+
+ | Requisição aceita body?     | Não | Sim  | Sim | Sim   | Sim    |
+ | Resposta aceita body?       | Sim | Sim  | Sim | Sim   | Sim    |
+ | Altera estado dos recursos? | Não | Sim  | Sim | Sim   | Sim    |
+ | É idempotente?              | Sim | Não  | Sim | Não   | Sim    |
+ | É cacheável?                | Sim | Não* | Não | Não   | Não    |
+ +-----------------------------+-----+------+-----+-------+--------+
+ * depende do que vier nos headers
+ ```
+
+### Status Codes
+- Source/Credits: https://github.com/waldemarnt/http-status-codes
+- Others: https://httpstatuses.com/
+
+### Informational 1xx
+- [100](http://httpstatus.es/100) - **Continue** - Client should continue with request.
+- [101](http://httpstatus.es/101) - **Switching Protocols** - Server is switching protocols.
+- [102](http://httpstatus.es/102) - **Processing** - Server has received and is processing the request.
+- [103](http://httpstatus.es/102) - **Processing** - Server has received and is processing the request.
+- [122](http://httpstatus.es/102) - **Request-uri too long** - URI is longer than a maximum of 2083 characters.
+
+### Success 2xx
+These codes indicate success. The body section if present is the object returned by the request. It is a MIME format object. It is in MIME format, and may only be in text/plain, text/html or one fo the formats specified as acceptable in the request.
+
+- [200](http://httpstatus.es/200) - **Ok** - The request was fulfilled.
+- [201](http://httpstatus.es/201) - **Created** - Following a POST command, this indicates success, but the textual part of the response line indicates the URI by which the newly created document should be known.
+- [202](http://httpstatus.es/202) - **Accepted** - The request has been accepted for processing, but the processing has not been completed. The request may or may not eventually be acted upon, as it may be disallowed when processing actually takes place. there is no facility for status returns from asynchronous operations such as this.
+- [203](http://httpstatus.es/203) - **Partial Information** - When received in the response to a GET command, this indicates that the returned metainformation is not a definitive set of the object from a server with a copy of the object, but is from a private overlaid web. This may include annotation information about the object, for example.
+- [204](http://httpstatus.es/204) - **No Response** - Server has received the request but there is no information to send back, and the client should stay in the same document view. This is mainly to allow input for scripts without changing the document at the same time.
+- [205](http://httpstatus.es/205) - **Reset Content** - Request processed, no content returned, reset document view.
+- [206](http://httpstatus.es/206) - **Partial Content** - partial resource return due to request header.
+- [207](http://httpstatus.es/207) - **Multi-Status** - XML, can contain multiple separate responses.
+- [208](http://httpstatus.es/208) - **Already Reported** - results previously returned.
+- [226](http://httpstatus.es/226) - **Im Used** - request fulfilled, reponse is instance-manipulations.
+
+### Redirection 3xx
+The codes in this section indicate action to be taken (normally automatically) by the client in order to fulfill the request.
+
+- [301](http://httpstatus.es/301) - **Moved** - The data requested has been assigned a new URI, the change is permanent. (N.B. this is an optimisation, which must, pragmatically, be included in this definition. Browsers with link editing capabiliy should automatically relink to the new reference, where possible)
+- [302](http://httpstatus.es/302) - **Found** - The data requested actually resides under a different URL, however, the redirection may be altered on occasion (when making links to these kinds of document, the browser should default to using the Udi of the redirection document, but have the option of linking to the final document) as for "Forward".
+- [303](http://httpstatus.es/303) - **Method** - Like the found response, this suggests that the client go try another network address. In this case, a different method may be used too, rather than GET.
+- [304](http://httpstatus.es/304) - **Not Modified** - If the client has done a conditional GET and access is allowed, but the document has not been modified since the date and time specified in If-Modified-Since field, the server responds with a 304 status code and does not send the document body to the client.
+- [305](http://httpstatus.es/305) - **Use Proxy** - Content located elsewhere, retrieve from there.
+- [306](http://httpstatus.es/306) - **Switch Proxy** - Subsequent requests should use the specified proxy.
+- [307](http://httpstatus.es/307) - **Temporary Redirect** - Connect again to different URI as provided.
+- [308](http://httpstatus.es/308) - **Permanent Redirect** - Connect again to a different URI using the same method.
+
+### Client side errors 4xx
+The 4xx codes are intended for cases in which the client seems to have erred, and the 5xx codes for the cases in which the server is aware that the server has erred. It is impossible to distinguish these cases in general, so the difference is only informational.
+
+The body section may contain a document describing the error in human readable form. The document is in MIME format, and may only be in text/plain, text/html or one for the formats specified as acceptable in the request.
+
+- [400](http://httpstatus.es/400) - **Bad Request** - The request had bad syntax or was inherently impossible to be satisfied.
+- [401](http://httpstatus.es/401) - **Unauthorized** - The parameter to this message gives a specification of authorization schemes which are acceptable. The client should retry the request with a suitable [Authorization](http://www.w3.org/Protocols/HTTP/HTRQ_Headers.html#z9) header.
+- [402](http://httpstatus.es/402) - **Payment Required** - The parameter to this message gives a specification of charging schemes acceptable. The client may retry the request with a suitable ChargeTo header.
+- [403](http://httpstatus.es/403) - **Forbidden** - The request is for something forbidden. Authorization will not help.
+- [404](http://httpstatus.es/404) - **Not Found** - The server has not found anything matching the URI given.
+- [405](http://httpstatus.es/405) - **Method Not Allowed** - Request method not supported by that resource.
+- [406](http://httpstatus.es/406) - **Not Acceptable** - Content not acceptable according to the Accept headers.
+- [407](http://httpstatus.es/407) - **Proxy Authentication Required** - Client must first authenticate itself with the proxy.
+- [408](http://httpstatus.es/408) - **Request Timeout** - Server timed out waiting for the request.
+- [409](http://httpstatus.es/409) - **Conflict** - Request could not be processed because of conflict.
+- [410](http://httpstatus.es/410) - **Gone** - Resource is no longer available and will not be available again.
+- [411](http://httpstatus.es/411) - **Length Required** - Request did not specify the length of its content.
+- [412](http://httpstatus.es/412) - **Precondition Failed** - Server does not meet request preconditions.
+- [413](http://httpstatus.es/413) - **Request Entity Too Large** - Request is larger than the server is willing or able to process.
+- [414](http://httpstatus.es/414) - **Request URI Too Large** - URI provided was too long for the server to process.
+- [415](http://httpstatus.es/415) - **Unsupported Media Type** - Server does not support media type.
+- [416](http://httpstatus.es/416) - **Requested Rage Not Satisfiable** - Client has asked for unprovidable portion of the file.
+- [417](http://httpstatus.es/417) - **Expectation Failed** - Server cannot meet requirements of Expect request-header field.
+- [418](http://httpstatus.es/418) - **I'm a teapot** - I'm a teapot.
+- [420](http://httpstatus.es/420) - **Enhance Your Calm** - Twitter rate limiting.
+- [421](https://tools.ietf.org/html/rfc7540#page-66) - **Misdirected Request** - Server is not able to produce a response.
+- [422](http://httpstatus.es/422) - **Unprocessable Entity** - Request unable to be followed due to semantic errors.
+- [423](http://httpstatus.es/423) - **Locked** - Resource that is being accessed is locked.
+- [424](http://httpstatus.es/424) - **Failed Dependency** - Request failed due to failure of a previous request.
+- [426](http://httpstatus.es/426) - **Upgrade Required** - Client should switch to a different protocol.
+- [428](http://httpstatus.es/428) - **Precondition Required** - Origin server requires the request to be conditional.
+- [429](http://httpstatus.es/429) - **Too Many Requests** - User has sent too many requests in a given amount of time.
+- [431](http://httpstatus.es/429) - **Request Header Fields Too Large** - Server is unwilling to process the request.
+- [444](http://httpstatus.es/444) - **No Response** - Server returns no information and closes the connection.
+- [449](http://httpstatus.es/449) - **Retry With** - Request should be retried after performing action.
+- [450](http://httpstatus.es/450) - **Blocked By Windows Parental Controls** - Windows Parental Controls blocking access to webpage.
+- [451](http://httpstatus.es/451) - **Wrong Exchange Server** - The server cannot reach the client's mailbox.
+- [499](http://httpstatus.es/499) - **Client Closed Request** - Connection closed by client while HTTP server is processing.
+
+### Server side error 5xx
+This means that even though the request appeared to be valid something went wrong at the server level and it wasn’t able to return anything.
+
+- [500](http://httpstatus.es/500) - **Internal Error** - The server encountered an unexpected condition which prevented it from fulfilling the request.
+- [501](http://httpstatus.es/501) - **Not Implemented** - The server does not support the facility required.
+- [502](http://httpstatus.es/502) - **Service temporarily overloaded** - The server cannot process the request due to a high load (whether HTTP servicing or other requests). The implication is that this is a temporary condition which maybe alleviated at other times.
+- [503](http://httpstatus.es/503) - **Gateway timeout** - This is equivalent to Internal Error 500, but in the case of a server which is in turn accessing some other service, this indicates that the respose from the other service did not return within a time that the gateway was prepared to wait. As from the point of view of the clientand the HTTP transaction the other service is hidden within the server, this maybe treated identically to Internal error 500, but has more diagnostic value.
+- [504](http://httpstatus.es/504) - **Gateway Timeout** - Gateway did not receive response from upstream server.
+- [505](http://httpstatus.es/505) - **Http Version Not Supported** - Server does not support the HTTP protocol version.
+- [506](http://httpstatus.es/506) - **Variant Also Negotiates** - Content negotiation for the request results in a circular reference.
+- [507](http://httpstatus.es/507) - **Insufficient Storage** - Server is unable to store the representation.
+- [508](http://httpstatus.es/508) - **Loop Detected** - Server detected an infinite loop while processing the request.
+- [509](http://httpstatus.es/509) - **Bandwidth Limit Exceeded** - Bandwidth limit exceeded.
+- [510](http://httpstatus.es/510) - **Not Extended** - Further extensions to the request are required.
+- [511](http://httpstatus.es/511) - **Network Authentication Required** - Client needs to authenticate to gain network access.
+- [598](http://httpstatus.es/598) - **Network Read Timeout Error** - Network read timeout behind the proxy.
+- [599](http://httpstatus.es/599) - **Network Connect Timeout Error** - Network connect timeout behind the proxy.
+
 
 ## Algoritmos e Estrutura de Dados
 
@@ -223,123 +338,6 @@
 ## Benchmarks
 - https://www.phoronix-test-suite.com/
 
-## Resumo Rápido GIT
-
-#### Referências
-- https://github.com/DanielHe4rt/git4noobs
-- https://danielkummer.github.io/git-flow-cheatsheet/index.pt_BR.html
-- https://www.atlassian.com/br/git/tutorials/comparing-workflows/gitflow-workflow
-
-#### Tools
-- https://www.sourcetreeapp.com/
-- https://desktop.github.com/
-- https://www.gitkraken.com/
-
-#### Install Git
-- $ sudo apt install -y git
-
-#### Iniciar git dentro do repositório
-- $ git init
-
-#### Adicionar arquivo para o stage
-- $ echo "Hello He4rt Devs" > index.html
-- $ git add ola.txt
-
-#### Adicionar todos os arquivos para o stage
-- $ git add .
-
-#### Fazer commit com comentário
-- $ git commit -m 'comentario_here'
-
-#### Criar Branch development
-- $ git checkout -b development
-- $ git branch
-
-#### Merge branch development to master
-- $ git checkout master
-- $ git merge development
-
-#### Adicionar local remoto
-- $ git remote add github url_github_here
-
-#### Push branch master para local remoto
-- $ git push github master 
-
-#### Pegar arquivos(pull) da branch master do local remoto
-- $ git pull github master 
-
-#### Ver todos os logs dos commits
-- $ git log
-
-#### Ver todas as alteraões feitas em cada commit
-- $ git show 
-
-#### Push outra branch para local remoto
-- $ git push github dev
-
-#### Ver alterações feitas antes do git add
-- $ git diff
-
-#### Deletar .git local
-- $ rm -rf .git 
-
-#### Apagar Diretório Remoto
-- $ git remote rm diretorio
-
-#### Apagar arquivo ola.txt do git stage
-- $ git rm ola.txt -f
-
-#### Apagar todos os arquivos dentro de um diretório forçado e de forma recursiva
-- $ git rm nome_pasta/. -fr
-
-#### Apagar branch locamente
-- $ git branch -D <nome do branch>
-
-#### Apagar branch remoto
-- $ git push <nome do origin> <nome do branch> --delete
-
-#### Evitar de algum arquivo não ser visto pelo git
-- Criar arquivo chamado ".gitignore" (adicionar arquivos que não serão vistos pelo git dentro deste arquivo)
-
-#### GIT Fetch All Branchs
-- https://stackoverflow.com/questions/10312521/how-to-fetch-all-git-branches
-- $ git fetch --all
-
-#### GIT Pull All Branchs
-- $ git pull --all
-
-#### GIT Push All Branchs To All Remotes
-- https://stackoverflow.com/questions/5785549/able-to-push-to-all-git-remotes-with-the-one-command
-- $ git remote | xargs -L1 git push --all
-- $ git remote | xargs -L1 -I R git push R master (push master)
-
-#### Revert to GIT Hash
-- $ git revert a867b4af..0766c053
-
-#### GIT Clear History
-- $ rm -rf .git
-- $ git init
-- $ git add .
-- $ git commit -m "Initial commit"
-- $ git remote add origin git@github.com:<YOUR ACCOUNT>/<YOUR REPOS>.git
-- $ git push -u --force origin master
-
-#### Desinstalar GIT
-- $ sudo apt-get remove git
-- $ sudo apt-get remove --auto-remove git
-- $ sudo apt-get purge git
-- $ sudo apt-get purge --auto-remove git
-
-
-## Forked Repositories
-- https://github.com/AlexGalhardo/ux4noobs
-- https://github.com/AlexGalhardo/DesignPatternsPHP
-- https://github.com/AlexGalhardo/awesome-php
-- https://github.com/AlexGalhardo/CheatSheetSeries (OWASP)
-- https://github.com/AlexGalhardo/docker-para-desenvolvedores
-- https://github.com/AlexGalhardo/public-apis
-- https://github.com/AlexGalhardo/hello.js (Oauth2 JS REST)
-
 ## HTML
 - [HEAD - A list of everything that *could* go in the head of your document](https://github.com/joshbuchea/HEAD)
 - https://www.browserstack.com/
@@ -386,27 +384,14 @@
    - https://developers.themoviedb.org/3/getting-started/introduction
    - https://www.igdb.com/api
 
-## Operation System
+## Pen Drive BOOT OS
 - https://www.balena.io/etcher/
-- https://lubuntu.me/downloads/ (I Recommend Lubuntu 18.04 LTS :muscle:)
 
 ## Premium IDEs
 - https://www.jetbrains.com/
 
-## DB GUI Softwares
-- [SequelPRO](https://www.sequelpro.com/)
-- [Dbeaver](https://dbeaver.io/download/)
-- [HeidiSQL](https://www.heidisql.com/)
-- [MySQL WorkBench](https://www.mysql.com/products/workbench/)
-- [SQLectron](https://sqlectron.github.io/)
-- [Postico](https://eggerapps.at/postico/)
-- https://www.adminer.org/
-- [Chrome MySQL Admin](https://chrome.google.com/webstore/detail/chrome-mysql-admin/ndgnpnpakfcdjmpgmcaknimfgcldechn)
-- https://robomongo.org/
-
 ## TinyMCE Editor
 - https://www.tiny.cloud/
-- https://www.tiny.cloud/drive/
 
 ## BarCode
 - https://serratus.github.io/quaggaJS/
@@ -476,21 +461,6 @@
 - https://enable-cors.org/
 - https://schema.org/
 
-## Programação Funcional
-  - [Aprender Haskell será um grande bem para você](http://haskell.tailorfontela.com.br/)
-
-## Plugins JS
-- PACE: Automatic page load progress bar => https://github.hubspot.com/pace/docs/welcome/
-- JS Notifications => https://github.com/CodeSeven/toastr
-
-## FontAwesomeIcons 
-- https://www.tutorialrepublic.com/font-awesome-icons.php
-
-## Open Source
-  - [OpenSource.org](https://opensource.org/)
-  - [OpenSource.guide](https://opensource.guide/)
-  - [Creative Commons](https://creativecommons.org/)
-  - https://allcontributors.org/
 
 <h2>Clean Code</h2>
 <p>Ao definir um nome, precisamos ter em mente dois pontos principais:</p>
@@ -948,6 +918,11 @@ as regras e possam beneficiar-se delas.</p>
        - ![osi](https://user-images.githubusercontent.com/19540357/81460482-29766100-9195-11ea-8219-d1138b16d965.jpg)
     - Tree Way Handshake
        - ![tree-way-handshake](https://user-images.githubusercontent.com/19540357/81460481-28ddca80-9195-11ea-883a-d2b94b63cfa2.jpg)
+
+## DNS
+
+![dns](https://user-images.githubusercontent.com/19540357/126329587-680de6c9-c47a-4142-b1f4-e3a95cc05707.png)
+
 
 ## Domain
 
