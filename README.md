@@ -12,6 +12,10 @@
 - [Teach Yourself CS](https://teachyourselfcs.com/)
 - [Web Developer Roadmap](https://github.com/kamranahmedse/developer-roadmap)
 
+![dados_conhecimento](https://user-images.githubusercontent.com/19540357/126878674-de22aca4-e36f-49c3-8d3e-8b55b70830cd.png)
+![piramide_aprendizagem](https://user-images.githubusercontent.com/19540357/126878675-63387927-01ee-470e-ac17-15a200d18bab.png)
+![piramide_maslow](https://user-images.githubusercontent.com/19540357/126878677-d5dd960a-998a-4b52-979e-c311491038a9.jpg)
+
 ## Principles
 - “Software ruim que adicionar valor > Software perfeito que não adiciona valor.”
 - “Aprenda a dizer: Eu NÃO Sei, e caso necessário, procure aprender.”
