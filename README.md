@@ -68,7 +68,7 @@
 ## Clean Architecture
 - <img src="https://user-images.githubusercontent.com/19540357/81711643-3ff91280-944a-11ea-8062-233c6134aed2.jpg">
 
-## BITS & Bytes
+## Bits & Bytes
 - ![main-qimg-f1566a19743b14bb5294c1e0a101a700](https://user-images.githubusercontent.com/19540357/81565313-8168bf80-936f-11ea-900a-0d9e44dfa7a4.png)
 
 ## HTTP
@@ -274,7 +274,7 @@ This means that even though the request appeared to be valid something went wron
       }
       ```
    - Factorial Time O(n!) :skull: :skull: :skull:
-     - Pior caso possível, sempre tente evitar!
+     - Sempre tente evitar!
      - Extremamente não perfomático
      - Vai executar em tempo fatorial para cada operação
      - Exemplo: Problema do vendedor viajante
