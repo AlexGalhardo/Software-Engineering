@@ -1,6 +1,22 @@
 ## https://comandosgit.github.io/#basico
 ## https://learngitbranching.js.org/
 
+## FAST
+- $ git checkout -v new-branch
+- $ git add .
+- $ git commit –m "Some commit message"
+- $ git checkout master
+- $ git merge new-branch
+
+- $ git remote rename origin github
+- $ git push --all origin
+
+- $ git config -l
+- Now cache the given record in your computer to remembers the token :
+   - $ git config --global credential.helper cache
+- If needed, anytime you can delete the cache record by :
+   - git config --global --unset credential.helper
+
 ## Estados
 
 * Modificado (modified);
@@ -16,7 +32,7 @@
 	git help add
 	git help commit
 	git help <qualquer_comando_git>
-	
+
 
 ## Configuração
 
