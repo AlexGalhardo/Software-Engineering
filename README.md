@@ -23,7 +23,7 @@
 ![piramide_maslow](https://user-images.githubusercontent.com/19540357/126878677-d5dd960a-998a-4b52-979e-c311491038a9.jpg)
 
 ## Crons
-
+![cron](https://user-images.githubusercontent.com/19540357/151031847-2ce2f6c2-ccba-4d8b-ad7c-da95aad4e02c.png)
 
 ## Os 4 Passos da Competência
 - 1 - Inconscientemente incompetente: “você não sabe o quanto você não sabe”
