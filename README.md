@@ -13,9 +13,6 @@
 - [Web Developer Roadmap](https://github.com/kamranahmedse/developer-roadmap)
 - [How Browsers Work: Behind the scenes of modern web browsers](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
 
-## Windows
-- [https://www.baboo.com.br/](https://www.baboo.com.br/)
-
 ## Diferenças Informação x Conhecimento
 ![dados_conhecimento](https://user-images.githubusercontent.com/19540357/126878674-de22aca4-e36f-49c3-8d3e-8b55b70830cd.png)
 
@@ -25,11 +22,17 @@
 ## Pirâmide de Maslow
 ![piramide_maslow](https://user-images.githubusercontent.com/19540357/126878677-d5dd960a-998a-4b52-979e-c311491038a9.jpg)
 
+## Crons
+
+
 ## Os 4 Passos da Competência
 - 1 - Inconscientemente incompetente: “você não sabe o quanto você não sabe”
 - 2 - Conscientemente incompetente: “você sabe o quanto você não sabe”
 - 3 - Conscientemente competente: “você já sabe o quanto você sabe”
 - 4 - Sabedoria: “inconscientemente você não sabe o quanto você sabe”
+
+## Windows
+- [https://www.baboo.com.br/](https://www.baboo.com.br/)
 
 
 ## Principles
@@ -344,102 +347,14 @@ This means that even though the request appeared to be valid something went wron
         - [Beaker Browser](https://beakerbrowser.com)
         - [TorProject](https://www.torproject.org/)
            - [TheHiddenWiki](https://thehiddenwiki.org/)
-          
-## Programação Funcional
-  - [Aprender Haskell será um grande bem para você](http://haskell.tailorfontela.com.br/)
-
+    
 ## Open Source
   - [OpenSource.org](https://opensource.org/)
   - [OpenSource.guide](https://opensource.guide/)
   - [Creative Commons](https://creativecommons.org/)
-  - [Scrum Poker Online](https://scrumpoker.online/)
-
-
-## Benchmarks
-- https://www.phoronix-test-suite.com/
-
-## HTML
-- [HEAD - A list of everything that *could* go in the head of your document](https://github.com/joshbuchea/HEAD)
-- https://www.browserstack.com/
-- Highlight Code
-   - https://prismjs.com/
-   - https://highlightjs.org/
-   - https://craig.is/making/rainbows
-
-## APIs
-- Imagens
-   - https://www.imgix.com/
-   - https://cloudinary.com/
-- JSON Structure Reference
-   - https://jsonapi.org/
-- Documentação
-   - https://swagger.io/
-   - https://apiblueprint.org/
-   - https://apidocjs.com/
-   - https://insomnia.rest/products/designer/
-   - https://learning.postman.com/docs/postman/api-documentation/documenting-your-api/
-- Ferramentas
-   - [Insomnia](https://insomnia.rest/download/)
-   - [Postman](https://www.getpostman.com/)
-   - [JSON-Server](https://github.com/typicode/json-server)
-   - [Axios](https://github.com/axios/axios)
-   - [RequestBin](https://requestbin.fullcontact.com/)
-   - [RestTestTest](http://resttesttest.com/)
-   - [Public Apis](https://github.com/toddmotto/public-apis)
-   - [Advanced Rest Client Chrome](https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo)
-   - [JSON Viewer Chrome](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh?hl=pt-BR)
-- DataSet
-   - https://aws.amazon.com/opendata/
-- EndPoints
-   - https://github.com/public-apis/public-apis
-   - https://hgbrasil.com/status/finance
-   - https://www.mercadobitcoin.com.br/api-doc/
-   - https://www.coindesk.com/coindesk-api
-   - https://docs.awesomeapi.com.br/api-de-moedas
-   - https://advisor.climatempo.com.br/
-   - https://openweathermap.org/api
-   - https://swapi.dev/
-   - https://api.github.com/users/alexgalhardo
-   - http://www.omdbapi.com/
-   - https://developers.themoviedb.org/3/getting-started/introduction
-   - https://www.igdb.com/api
 
 ## Pen Drive BOOT OS
-- https://www.balena.io/etcher/
-
-## Premium IDEs
-- https://www.jetbrains.com/
-
-## TinyMCE Editor
-- https://www.tiny.cloud/
-
-## BarCode
-- https://serratus.github.io/quaggaJS/
-- https://packagist.org/packages/picqer/php-barcode-generator
-
-## Graphics
-- https://www.chartjs.org/
-
-## Masks
-- https://imask.js.org/guide.html
-- https://igorescobar.github.io/jQuery-Mask-Plugin/
-
-## Testing & Code Quality & CI & CD
-- https://www.jenkins.io/
-- https://codeclimate.com/
-- https://travis-ci.com/
-- http://phpdox.de/
-- https://styleci.io/
-- https://circleci.com/
-- https://newrelic.com/
-- https://phpstan.org/
-- https://codecov.io/
-- https://psalm.dev/
-- https://blackfire.io/
-- https://scrutinizer-ci.com/
-- https://docs.phpdoc.org/latest/
-- https://keepachangelog.com/pt-BR/1.0.0/
-- https://prometheus.io/
+- [https://www.balena.io/etcher/](https://www.balena.io/etcher/)
 
 ## Regex
 - [Livro Online Expressões Regulares - Uma abordagem divertida - Aurelio Jargas](http://piazinho.com.br/)
@@ -452,8 +367,10 @@ This means that even though the request appeared to be valid something went wron
 - [CloudFlare](https://www.cloudflare.com/)
 
 ## Static Hosts
-- [Netlify](https://www.netlify.com/)
-- [GithubPages](https://pages.github.com/)
+- [https://www.netlify.com/](https://www.netlify.com/)
+- [https://pages.github.com/](https://pages.github.com/)
+- [https://vercel.com/](https://vercel.com/)
+- [https://www.digitalocean.com/products/app-platform/](https://www.digitalocean.com/products/app-platform/)
 
 ## Domain
 - [RegistroBR](https://registro.br/)
@@ -462,24 +379,24 @@ This means that even though the request appeared to be valid something went wron
 - [NameCheap](https://www.namecheap.com)
 - [Name.com](https://www.name.com/) 
 
-## Sites & Softwares Úteis
-- https://www.submarinecablemap.com/
-- https://www.similartech.com/
-- https://w3techs.com/
-- https://archive.org/web/
-- https://desktop.github.com/
-- https://www.gitkraken.com/
-- https://hyper.is/
-- https://ngrok.com/
-- https://www.lastpass.com/pt
-- https://w3techs.com/
-- https://placeholder.com/
-- https://emojipedia.org
-- https://www.getrevue.co/
-- https://dillinger.io/
-- https://choosealicense.com/
-- https://enable-cors.org/
-- https://schema.org/
+## Usefull Sites
+- [https://www.submarinecablemap.com/](https://www.submarinecablemap.com/)
+- [https://www.similartech.com/](https://www.similartech.com/)
+- [https://w3techs.com/](https://w3techs.com/)
+- [https://archive.org/web/](https://archive.org/web/)
+- [https://desktop.github.com/](https://desktop.github.com/)
+- [https://www.gitkraken.com/](https://www.gitkraken.com/)
+- [https://hyper.is/](https://hyper.is/)
+- [https://ngrok.com/](https://ngrok.com/)
+- [https://www.lastpass.com/pt](https://www.lastpass.com/pt)
+- [https://w3techs.com/](https://w3techs.com/)
+- [https://placeholder.com/](https://placeholder.com/)
+- [https://emojipedia.org](https://emojipedia.org)
+- [https://www.getrevue.co/](https://www.getrevue.co/)
+- [https://dillinger.io/](https://dillinger.io/)
+- [https://choosealicense.com/](https://choosealicense.com/)
+- [https://enable-cors.org/](https://enable-cors.org/)
+- [https://schema.org/](https://schema.org/)
 
 
 <h2>Clean Code</h2>
@@ -942,7 +859,6 @@ as regras e possam beneficiar-se delas.</p>
 ## DNS
 
 ![dns](https://user-images.githubusercontent.com/19540357/126329587-680de6c9-c47a-4142-b1f4-e3a95cc05707.png)
-
 
 ## Domain
 
