@@ -110,7 +110,7 @@
  * depende do que vier nos headers
  ```
 
-### Status Codes
+### HTTP Status Codes
 - Source/Credits: https://github.com/waldemarnt/http-status-codes
 - Others: https://httpstatuses.com/
 
