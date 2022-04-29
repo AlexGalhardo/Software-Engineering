@@ -356,6 +356,12 @@ This means that even though the request appeared to be valid something went wron
 ## Pen Drive BOOT OS
 - [https://www.balena.io/etcher/](https://www.balena.io/etcher/)
 
+## Linux OS I Recommend
+- [Ubuntu](https://ubuntu.com/download)
+- [Linux Mint](https://www.linuxmint.com/download.php)
+- [Lubuntu](https://lubuntu.me/)
+- [Xubuntu](https://xubuntu.org/)
+- [PopOs](https://pop.system76.com/)
 ## Regex
 - [Livro Online Expressões Regulares - Uma abordagem divertida - Aurelio Jargas](http://piazinho.com.br/)
 - [Regex101](https://regex101.com/)
