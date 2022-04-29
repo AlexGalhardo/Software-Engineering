@@ -927,3 +927,13 @@ as regras e possam beneficiar-se delas.</p>
           - IaaS (Infraestrutura como serviço) é uma infraestrutura de computação instantânea, provisionada e gerenciada pela Internet. Escale ou reduza verticalmente com demanda e pague somente pelo que usar.
           - IaaS ajuda a evitar gastos e complexidade de comprar e gerenciar seus próprios servidores físicos e outras infraestruturas do datacenter. Cada recurso é oferecido como um componente de serviço separado e você só pode alugar um específico pelo tempo que precisar. O provedor de serviços de computação em nuvem gerencia a infraestrutura, enquanto você adquire, instala, configura e gerencia seu próprio software – sistemas operacionais, middleware e aplicativos.
           - <em>Exemplo: Servidores e armazenamento  Segurança/firewalls de rede Construção/planta física do datacenter</em>
+
+## Kubernetes
+- [Documentação Oficial](https://kubernetes.io/pt-br/docs/_print/)
+
+- ![deploy-kub](https://user-images.githubusercontent.com/19540357/165997551-bb8923f1-4bec-409b-b604-b73ddd1049f7.svg)
+- ![kb-01](https://user-images.githubusercontent.com/19540357/165997536-0fc77950-4b57-4dd7-9960-1341e6983ca6.png)
+- ![kb-02](https://user-images.githubusercontent.com/19540357/165997544-f2b90436-5d0a-4852-b9be-cea8d1ed6af7.png)
+- ![kb-03](https://user-images.githubusercontent.com/19540357/165997547-17182379-efbc-414e-8253-d0c593b42f77.png)
+- ![kb-04](https://user-images.githubusercontent.com/19540357/165997549-f5b6d977-1e0c-4352-b652-e25e0939a757.png)
+- ![kb-05](https://user-images.githubusercontent.com/19540357/165997557-f677bf5a-d7d6-4011-a260-fbeeee2e03c0.png)
