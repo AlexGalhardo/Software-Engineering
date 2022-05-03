@@ -12,6 +12,7 @@
 - [Teach Yourself CS](https://teachyourselfcs.com/)
 - [Web Developer Roadmap](https://github.com/kamranahmedse/developer-roadmap)
 - [How Browsers Work: Behind the scenes of modern web browsers](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
+- [Roadmap.sh](https://roadmap.sh/)
 
 ## Diferenças Informação x Conhecimento
 ![dados_conhecimento](https://user-images.githubusercontent.com/19540357/126878674-de22aca4-e36f-49c3-8d3e-8b55b70830cd.png)
@@ -217,6 +218,8 @@ This means that even though the request appeared to be valid something went wron
     - [HackerRank](https://www.hackerrank.com/)
     - [Edabit](https://edabit.com)
     - [URI Online Judge](https://www.urionlinejudge.com.br/judge/en/login)
+    - [7 Days Of Code](https://7daysofcode.io/)
+    - [100 days of code](https://www.100daysofcode.com/)
 - KhanAcademy 
    - [Computer Science](https://www.khanacademy.org/computing/computer-science)
    - [Notação assintótica](https://pt.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/asymptotic-notation)
