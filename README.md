@@ -375,11 +375,19 @@ This means that even though the request appeared to be valid something went wron
 - [StackPath](https://www.stackpath.com/)
 - [CloudFlare](https://www.cloudflare.com/)
 
-## Static Hosts
+## Deploy Static Sites
 - [https://www.netlify.com/](https://www.netlify.com/)
 - [https://pages.github.com/](https://pages.github.com/)
 - [https://vercel.com/](https://vercel.com/)
 - [https://www.digitalocean.com/products/app-platform/](https://www.digitalocean.com/products/app-platform/)
+
+## Deploy Dynamic WebApps
+- [Railway.app](https://railway.app/)
+- [Heroku](https://heroku.com/)
+- [DigitalOcean](https://www.digitalocean.com/)
+- [GCP](https://cloud.google.com/)
+- [AWS](https://aws.amazon.com/pt/)
+- [AZURE](https://azure.microsoft.com/en-us/)
 
 ## Domain
 - [RegistroBR](https://registro.br/)
