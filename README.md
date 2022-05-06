@@ -930,6 +930,7 @@ as regras e possam beneficiar-se delas.</p>
 
 ## Kubernetes
 - [Documentação Oficial](https://kubernetes.io/pt-br/docs/_print/)
+- [Docs](https://kubernetes.io/pt-br/docs/home/)
 
 - ![deploy-kub](https://user-images.githubusercontent.com/19540357/165997551-bb8923f1-4bec-409b-b604-b73ddd1049f7.svg)
 - ![kb-01](https://user-images.githubusercontent.com/19540357/165997536-0fc77950-4b57-4dd7-9960-1341e6983ca6.png)
