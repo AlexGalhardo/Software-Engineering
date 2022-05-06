@@ -12,6 +12,7 @@
 - [Teach Yourself CS](https://teachyourselfcs.com/)
 - [Web Developer Roadmap](https://github.com/kamranahmedse/developer-roadmap)
 - [How Browsers Work: Behind the scenes of modern web browsers](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
+- [Roadmap.sh](https://roadmap.sh/)
 
 ## Diferenças Informação x Conhecimento
 ![dados_conhecimento](https://user-images.githubusercontent.com/19540357/126878674-de22aca4-e36f-49c3-8d3e-8b55b70830cd.png)
@@ -23,6 +24,7 @@
 ![piramide_maslow](https://user-images.githubusercontent.com/19540357/126878677-d5dd960a-998a-4b52-979e-c311491038a9.jpg)
 
 ## Crons
+- [https://crontab.guru/](https://crontab.guru/)
 ![cron](https://user-images.githubusercontent.com/19540357/151031847-2ce2f6c2-ccba-4d8b-ad7c-da95aad4e02c.png)
 
 ## Os 4 Passos da Competência
@@ -217,6 +219,8 @@ This means that even though the request appeared to be valid something went wron
     - [HackerRank](https://www.hackerrank.com/)
     - [Edabit](https://edabit.com)
     - [URI Online Judge](https://www.urionlinejudge.com.br/judge/en/login)
+    - [7 Days Of Code](https://7daysofcode.io/)
+    - [100 days of code](https://www.100daysofcode.com/)
 - KhanAcademy 
    - [Computer Science](https://www.khanacademy.org/computing/computer-science)
    - [Notação assintótica](https://pt.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/asymptotic-notation)
@@ -372,11 +376,19 @@ This means that even though the request appeared to be valid something went wron
 - [StackPath](https://www.stackpath.com/)
 - [CloudFlare](https://www.cloudflare.com/)
 
-## Static Hosts
+## Deploy Static Sites
 - [https://www.netlify.com/](https://www.netlify.com/)
 - [https://pages.github.com/](https://pages.github.com/)
 - [https://vercel.com/](https://vercel.com/)
 - [https://www.digitalocean.com/products/app-platform/](https://www.digitalocean.com/products/app-platform/)
+
+## Deploy Dynamic WebApps
+- [Railway.app](https://railway.app/)
+- [Heroku](https://heroku.com/)
+- [DigitalOcean](https://www.digitalocean.com/)
+- [GCP](https://cloud.google.com/)
+- [AWS](https://aws.amazon.com/pt/)
+- [AZURE](https://azure.microsoft.com/en-us/)
 
 ## Domain
 - [RegistroBR](https://registro.br/)
@@ -929,8 +941,9 @@ as regras e possam beneficiar-se delas.</p>
           - <em>Exemplo: Servidores e armazenamento  Segurança/firewalls de rede Construção/planta física do datacenter</em>
 
 ## Kubernetes
-- [Documentação Oficial](https://kubernetes.io/pt-br/docs/_print/)
-- [Docs](https://kubernetes.io/pt-br/docs/home/)
+
+- [Documentation](https://kubernetes.io/pt-br/docs/_print/)
+- [YouTube Video - Kubernetes Tutorial for Beginners [FULL COURSE in 4 Hours]](https://www.youtube.com/watch?v=X48VuDVv0do)s
 
 - ![deploy-kub](https://user-images.githubusercontent.com/19540357/165997551-bb8923f1-4bec-409b-b604-b73ddd1049f7.svg)
 - ![kb-01](https://user-images.githubusercontent.com/19540357/165997536-0fc77950-4b57-4dd7-9960-1341e6983ca6.png)
