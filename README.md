@@ -940,7 +940,8 @@ as regras e possam beneficiar-se delas.</p>
           - <em>Exemplo: Servidores e armazenamento  Segurança/firewalls de rede Construção/planta física do datacenter</em>
 
 ## Kubernetes
-- [Documentação Oficial](https://kubernetes.io/pt-br/docs/_print/)
+- [Documentation](https://kubernetes.io/pt-br/docs/_print/)
+- [YouTube Video - Kubernetes Tutorial for Beginners [FULL COURSE in 4 Hours]](https://www.youtube.com/watch?v=X48VuDVv0do)
 
 - ![deploy-kub](https://user-images.githubusercontent.com/19540357/165997551-bb8923f1-4bec-409b-b604-b73ddd1049f7.svg)
 - ![kb-01](https://user-images.githubusercontent.com/19540357/165997536-0fc77950-4b57-4dd7-9960-1341e6983ca6.png)
