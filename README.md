@@ -351,7 +351,10 @@ This means that even though the request appeared to be valid something went wron
         - [Beaker Browser](https://beakerbrowser.com)
         - [TorProject](https://www.torproject.org/)
            - [TheHiddenWiki](https://thehiddenwiki.org/)
-    
+
+## Articles
+- [CQRS - Martin Fowler](https://martinfowler.com/bliki/CQRS.html)
+
 ## Open Source
   - [OpenSource.org](https://opensource.org/)
   - [OpenSource.guide](https://opensource.guide/)
