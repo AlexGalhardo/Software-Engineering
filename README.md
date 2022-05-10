@@ -232,6 +232,7 @@ This means that even though the request appeared to be valid something went wron
 - Visualização de Estruturas de Dados :skull:
    - [VisualGo](https://visualgo.net/en)
    - [University of San Francisco - CS](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+   - [https://www.cs.usfca.edu/~galles/visualization/AVLtree.html](https://www.cs.usfca.edu/~galles/visualization/AVLtree.html)
 - Big O Notation :skull: 
    - [bigocheatsheet.com](http://bigocheatsheet.com/)
    - [A coffee-break introduction to time complexity of algorithms](https://dev.to/vickylai/a-coffee-break-introduction-to-time-complexity-of-algorithms-160m?utm_source=digest_mailer&utm_medium=email&utm_campaign=digest_email)
