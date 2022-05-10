@@ -71,6 +71,7 @@
 - “Sempre vai existir alguma coisa para melhorar. Feito é melhor que perfeito.”
 
 ## Clean Architecture
+- [TheWisePad - NodeJS & Typescript BackEnd REST API Example](https://github.com/viniciusandd/thewisepad)
 - <img src="https://user-images.githubusercontent.com/19540357/81711643-3ff91280-944a-11ea-8062-233c6134aed2.jpg">
 
 ## Bits & Bytes
@@ -214,6 +215,8 @@ This means that even though the request appeared to be valid something went wron
  - Sites
     - [GeeksForGeeks](https://www.geeksforgeeks.org/)
     - [AssemblyProgressivo.net](https://www.assemblyprogressivo.net/)
+ - GitHub Repositories
+    - [https://github.com/antlr/grammars-v4](https://github.com/antlr/grammars-v4)
 - Treinamento de Código
     - [Project Euler](https://projecteuler.net/)
     - [HackerRank](https://www.hackerrank.com/)
