@@ -74,6 +74,7 @@
 
 ## Clean Architecture
 - [TheWisePad - NodeJS & Typescript BackEnd REST API Example - Otavio Lemos](https://github.com/otaviolemos/thewisepad-core)
+- [Livro Arquitetura Limpa na Prática, do Otávio Lemos](https://www.otaviolemos.com.br/)
 - <img src="https://user-images.githubusercontent.com/19540357/81711643-3ff91280-944a-11ea-8062-233c6134aed2.jpg">
 
 ## Bits & Bytes
@@ -222,7 +223,9 @@ This means that even though the request appeared to be valid something went wron
 - Treinamento de Código
     - [Project Euler](https://projecteuler.net/)
     - [HackerRank](https://www.hackerrank.com/)
+    - [LeetCode](https://leetcode.com/)
     - [Edabit](https://edabit.com)
+    - [AlgoExpert.io](https://www.algoexpert.io/product)
     - [URI Online Judge](https://www.urionlinejudge.com.br/judge/en/login)
     - [7 Days Of Code](https://7daysofcode.io/)
     - [100 days of code](https://www.100daysofcode.com/)
@@ -948,6 +951,10 @@ as regras e possam beneficiar-se delas.</p>
           - IaaS (Infraestrutura como serviço) é uma infraestrutura de computação instantânea, provisionada e gerenciada pela Internet. Escale ou reduza verticalmente com demanda e pague somente pelo que usar.
           - IaaS ajuda a evitar gastos e complexidade de comprar e gerenciar seus próprios servidores físicos e outras infraestruturas do datacenter. Cada recurso é oferecido como um componente de serviço separado e você só pode alugar um específico pelo tempo que precisar. O provedor de serviços de computação em nuvem gerencia a infraestrutura, enquanto você adquire, instala, configura e gerencia seu próprio software – sistemas operacionais, middleware e aplicativos.
           - <em>Exemplo: Servidores e armazenamento  Segurança/firewalls de rede Construção/planta física do datacenter</em>
+
+## DevOps
+
+- [Youtube Channel - TechWorld with Nana](https://www.youtube.com/c/TechWorldwithNana)
 
 ## Kubernetes
 
