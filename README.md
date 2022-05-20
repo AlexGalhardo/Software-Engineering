@@ -956,10 +956,16 @@ as regras e possam beneficiar-se delas.</p>
 
 - [Youtube Channel - TechWorld with Nana](https://www.youtube.com/c/TechWorldwithNana)
 
+## Docker
+- [docker.com](https://www.docker.com/)
+- [DockerHub](https://www.docker.com/products/docker-hub/)
+- [YouTube - Docker Tutorial for Beginners [FULL COURSE in 3 Hours]](https://www.youtube.com/watch?v=3c-iBn73dDE)
+- [YouTube PlayList - What is Docker? from TechWorld with Nana](https://www.youtube.com/watch?v=jPdIRX6q4jA&list=PLy7NrYWoggjzfAHlUusx2wuDwfCrmJYcs)
+
 ## Kubernetes
 
 - [Documentation](https://kubernetes.io/pt-br/docs/_print/)
-- [YouTube Video - Kubernetes Tutorial for Beginners [FULL COURSE in 4 Hours]](https://www.youtube.com/watch?v=X48VuDVv0do)s
+- [YouTube Video - Kubernetes Tutorial for Beginners [FULL COURSE in 4 Hours]](https://www.youtube.com/watch?v=X48VuDVv0do)
 
 - ![deploy-kub](https://user-images.githubusercontent.com/19540357/165997551-bb8923f1-4bec-409b-b604-b73ddd1049f7.svg)
 - ![kb-01](https://user-images.githubusercontent.com/19540357/165997536-0fc77950-4b57-4dd7-9960-1341e6983ca6.png)
