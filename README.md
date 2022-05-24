@@ -225,6 +225,7 @@ This means that even though the request appeared to be valid something went wron
     - [HackerRank](https://www.hackerrank.com/)
     - [LeetCode](https://leetcode.com/)
     - [Edabit](https://edabit.com)
+    - [Exercism](https://exercism.org/)
     - [AlgoExpert.io](https://www.algoexpert.io/product)
     - [URI Online Judge](https://www.urionlinejudge.com.br/judge/en/login)
     - [7 Days Of Code](https://7daysofcode.io/)
