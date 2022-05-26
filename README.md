@@ -75,6 +75,7 @@
 ## Clean Architecture
 - [TheWisePad - NodeJS & Typescript BackEnd REST API Example - Otavio Lemos](https://github.com/otaviolemos/thewisepad-core)
 - [Livro Arquitetura Limpa na Prática, do Otávio Lemos](https://www.otaviolemos.com.br/)
+- [https://github.com/khaosdoctor/layered-typescript-bookstore](https://github.com/khaosdoctor/layered-typescript-bookstore)
 - <img src="https://user-images.githubusercontent.com/19540357/81711643-3ff91280-944a-11ea-8062-233c6134aed2.jpg">
 
 ## Bits & Bytes
