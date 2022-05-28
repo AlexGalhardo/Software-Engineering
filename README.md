@@ -17,6 +17,9 @@
 - [https://thewisedev.com.br/](https://thewisedev.com.br/)
 - [Software Engineering at Google - SWE BOOK](https://abseil.io/resources/swe-book)
 
+## Articles
+- [Shipping to Production - Approaches for shipping code to production reliably, every time](https://newsletter.pragmaticengineer.com/p/shipping-to-production?s=r)
+
 ## Diferenças Informação x Conhecimento
 ![dados_conhecimento](https://user-images.githubusercontent.com/19540357/126878674-de22aca4-e36f-49c3-8d3e-8b55b70830cd.png)
 
