@@ -384,6 +384,7 @@ This means that even though the request appeared to be valid something went wron
 - [Lubuntu](https://lubuntu.me/)
 - [Xubuntu](https://xubuntu.org/)
 - [PopOs](https://pop.system76.com/)
+
 ## Regex
 - [Livro Online Expressões Regulares - Uma abordagem divertida - Aurelio Jargas](http://piazinho.com.br/)
 - [Regex101](https://regex101.com/)
@@ -434,6 +435,8 @@ This means that even though the request appeared to be valid something went wron
 - [https://enable-cors.org/](https://enable-cors.org/)
 - [https://schema.org/](https://schema.org/)
 
+## Usefull tools
+- [https://c4model.com/](https://c4model.com/)
 
 <h2>Clean Code</h2>
 <p>Ao definir um nome, precisamos ter em mente dois pontos principais:</p>
