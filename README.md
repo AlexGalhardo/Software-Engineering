@@ -81,6 +81,8 @@
 - [Livro Arquitetura Limpa na Prática, do Otávio Lemos](https://www.otaviolemos.com.br/)
 - [https://github.com/khaosdoctor/layered-typescript-bookstore](https://github.com/khaosdoctor/layered-typescript-bookstore)
 - <img src="https://user-images.githubusercontent.com/19540357/81711643-3ff91280-944a-11ea-8062-233c6134aed2.jpg">
+- ![logica-hexagonal](https://user-images.githubusercontent.com/19540357/175309513-433edc44-39fc-4da7-9242-ff9b90e14970.png)
+- ![image-clean-architecture](https://user-images.githubusercontent.com/19540357/175309509-bf2b2327-1528-4d37-9988-b9b5ff365daf.png)
 
 ## Bits & Bytes
 - ![main-qimg-f1566a19743b14bb5294c1e0a101a700](https://user-images.githubusercontent.com/19540357/81565313-8168bf80-936f-11ea-900a-0d9e44dfa7a4.png)
@@ -970,6 +972,7 @@ as regras e possam beneficiar-se delas.</p>
 - [DockerHub](https://www.docker.com/products/docker-hub/)
 - [YouTube - Docker Tutorial for Beginners [FULL COURSE in 3 Hours]](https://www.youtube.com/watch?v=3c-iBn73dDE)
 - [YouTube PlayList - What is Docker? from TechWorld with Nana](https://www.youtube.com/watch?v=jPdIRX6q4jA&list=PLy7NrYWoggjzfAHlUusx2wuDwfCrmJYcs)
+- https://livro.descomplicandodocker.com.br/
 
 ## Kubernetes
 
