@@ -31,7 +31,7 @@
 
 ## Crons
 - [https://crontab.guru/](https://crontab.guru/)
-![cron](https://user-images.githubusercontent.com/19540357/151031847-2ce2f6c2-ccba-4d8b-ad7c-da95aad4e02c.png)
+![cron-cheatsheet](https://user-images.githubusercontent.com/19540357/187078100-1ff7c60e-26d0-48d7-b38a-615f1d4ff0fe.jpg)
 
 ## Os 4 Passos da Competência
 - 1 - Inconscientemente incompetente: “você não sabe o quanto você não sabe”
