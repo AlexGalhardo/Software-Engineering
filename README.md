@@ -39,6 +39,21 @@
 - 3 - Conscientemente competente: “você já sabe o quanto você sabe”
 - 4 - Sabedoria: “inconscientemente você não sabe o quanto você sabe”
 
+## As 4 Formas de Gastar Dinheiro - Milton Friedman
+Segundo o economista Milton Friedman, existem 4 maneiras de gastar dinheiro
+- 1- Gastar meu dinheiro comigo:
+   - Nesse caso, tenho o incentivo para procurar o melhor custo benefício
+   - Um bom serviço, por um preço justo
+- 2- Gastar meu dinheiro com outras pessoas:
+   - Nesse tipo de situação, o objetivo é economizar, o preço é mais importante que a qualidade do serviço
+   - Um serviço mediano por um bom preço
+- 3- Gastar o dinheiro de outra pessoa comigo:
+   - Nesse caso, o dinheiro é gasto com grande atenção para a qualidade, mas com pouco interesse em buscar o melhor preço
+   - Um serviço excelente, por um preço elevado
+- 4- Gastar o dinheiro de outra pessoa com um terceiro:
+   - Em uma situação como essa, há pouco incentivo em se preocupar tanto com a qualidade do serviço quanto com o preço
+   - Serviço ruim por um preço elevado ou serviço bom por um preço extremamente elevado
+
 ## Windows
 - [https://www.baboo.com.br/](https://www.baboo.com.br/)
 
