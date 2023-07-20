@@ -91,6 +91,52 @@ Segundo o economista Milton Friedman, existem 4 maneiras de gastar dinheiro
 - “Inovação só existe em um mundo de restrição, e não abundância.”
 - “Sempre vai existir alguma coisa para melhorar. Feito é melhor que perfeito.”
 
+## Atalhos VSCode
+
+#### Navegação e Edição Básica
+
+- 😊 Ctrl + P: Abrir arquivo por nome.
+- 🖱️ Ctrl + Shift + N: Criar uma nova janela.
+- 📝 Ctrl + Shift + P: Abrir a paleta de comandos.
+- 🔀 Ctrl + Tab: Alternar entre abas.
+- 🔀 Ctrl + Shift + Tab: Alternar entre abas na ordem inversa.
+- 📚 Ctrl + \ : Mostrar/esconder o painel lateral.
+- 🏢 Ctrl + B: Mostrar/esconder a barra de atividades.
+- 🔎 Ctrl + F: Localizar.
+- 🔍 Ctrl + H: Substituir.
+- 🔁 Ctrl + D: Selecionar a próxima ocorrência da seleção atual.
+- ⬅️ Ctrl + U: Desfazer a última seleção.
+- 📌 Ctrl + L: Selecionar a linha atual.
+
+#### Navegação no Editor
+
+- 🗺️ Ctrl + G: Ir para uma linha específica.
+- 🗺️ Ctrl + P + Número da Linha + : ir para uma linha específica.
+- ↩️ Ctrl + -: voltar para a última posição do cursor.
+- ↪️ Ctrl + Shift + -: avançar para a próxima posição do cursor.
+- ⬅️ Alt + ←/→: Voltar/avançar para a última posição do cursor.
+- ⬅️ Ctrl + Shift + ←/→: selecionar palavra a palavra.
+
+#### Manipulação de Texto
+
+- 📋 Ctrl + C: Copiar linha ou seleção.
+- ✂️ Ctrl + X: Recortar linha ou seleção.
+- 📥 Ctrl + V: Colar linha ou seleção.
+- ❌ Ctrl + Shift + K: Excluir linha.
+- ➕ Ctrl + Enter: Inserir linha abaixo.
+- ➕ Ctrl + Shift + Enter: Inserir linha acima.
+- 🔃 Shift + Alt + ↓/↑: mover linha para cima ou para baixo.
+- 🔀 Alt + ↓/↑: mover linha ou bloco de código para cima, ou para baixo.
+- 🔑 Ctrl + Shift + \: Ir para a chave de abertura ou fechamento correspondente.
+
+#### Refatoração de Código
+
+- 🔍 F12: ir para definição.
+- 💡 Ctrl + F12: ir para definição rápida.
+- 🔎 Shift + F12: encontrar todas as referências.
+- 🔍 Ctrl + Shift + F: Pesquisar em arquivos.
+- 🔍 Ctrl + Shift + H: Substituir em arquivos.
+
 ## Clean Architecture
 - [TheWisePad - NodeJS & Typescript BackEnd REST API Example - Otavio Lemos](https://github.com/otaviolemos/thewisepad-core)
 - [Livro Arquitetura Limpa na Prática, do Otávio Lemos](https://www.otaviolemos.com.br/)
