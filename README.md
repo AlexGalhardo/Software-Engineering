@@ -26,6 +26,10 @@
 ## Como Aprendemos
 ![piramide_aprendizagem](https://user-images.githubusercontent.com/19540357/126878675-63387927-01ee-470e-ac17-15a200d18bab.png)
 
+## Pensamento Crítico
+![pensamento crítico](https://github.com/AlexGalhardo/Software-Engineering/assets/19540357/01b4a252-1813-4cb5-8ea4-128f65785181)
+
+
 ## Pirâmide de Maslow
 ![piramide_maslow](https://user-images.githubusercontent.com/19540357/126878677-d5dd960a-998a-4b52-979e-c311491038a9.jpg)
 
