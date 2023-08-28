@@ -169,6 +169,9 @@ Segundo o economista Milton Friedman, existem 4 maneiras de gastar dinheiro
 <li><a href="https://kinsta.com/pt/aprenda/http2/">O que é HTTP/2 – O Guia Final</a></li>
 </ul>
 
+## API REST
+- [Guia de Design REST](https://oliveira-michel.github.io/artigos/2019/07/11/guia-de-design-rest.htm)
+
 ### Methods
  
  - POST vs PUT vs PATCH
