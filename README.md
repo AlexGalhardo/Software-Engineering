@@ -17,6 +17,7 @@
 - [https://thewisedev.com.br/](https://thewisedev.com.br/)
 - [Software Engineering at Google - SWE BOOK](https://abseil.io/resources/swe-book)
 - [Staff Engineering Book](https://staffeng.com/)
+- [Book ShapeUp - BaseCamp](https://basecamp.com/shapeup)
 
 ## Articles
 - [Shipping to Production - Approaches for shipping code to production reliably, every time](https://newsletter.pragmaticengineer.com/p/shipping-to-production?s=r)
