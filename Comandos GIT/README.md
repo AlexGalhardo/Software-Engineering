@@ -1,6 +1,10 @@
 ## https://comandosgit.github.io/#basico
 ## https://learngitbranching.js.org/
 
+
+![git-rebase-merge](https://github.com/AlexGalhardo/Software-Engineering/assets/19540357/c99dd514-e710-44b1-8745-ec0d32319a88)
+
+
 ## FAST
 - $ git checkout -v new-branch
 - $ git add .
