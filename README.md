@@ -39,6 +39,10 @@
 - [https://crontab.guru/](https://crontab.guru/)
 ![cron-cheatsheet](https://user-images.githubusercontent.com/19540357/187078100-1ff7c60e-26d0-48d7-b38a-615f1d4ff0fe.jpg)
 
+## SQL
+
+![SQL resume](https://github.com/AlexGalhardo/Software-Engineering/assets/19540357/9b1aee83-d72d-42a5-9bff-ed7974f8e24b)
+
 ## Os 4 Passos da Competência
 - 1 - Inconscientemente incompetente: “você não sabe o quanto você não sabe”
 - 2 - Conscientemente incompetente: “você sabe o quanto você não sabe”
