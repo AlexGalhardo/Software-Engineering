@@ -18,6 +18,7 @@
 - [Software Engineering at Google - SWE BOOK](https://abseil.io/resources/swe-book)
 - [Staff Engineering Book](https://staffeng.com/)
 - [Book ShapeUp - BaseCamp](https://basecamp.com/shapeup)
+- [The Stoic Mind: A Visual Exploration Of Stoic Philosophy](https://play.google.com/store/books/details/Addy_Osmani_The_Stoic_Mind?id=ylfPEAAAQBAJ)
 
 ## Articles
 - [Shipping to Production - Approaches for shipping code to production reliably, every time](https://newsletter.pragmaticengineer.com/p/shipping-to-production?s=r)
