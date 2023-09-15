@@ -974,9 +974,10 @@ as regras e possam beneficiar-se delas.</p>
     - Tree Way Handshake
        - ![tree-way-handshake](https://user-images.githubusercontent.com/19540357/81460481-28ddca80-9195-11ea-883a-d2b94b63cfa2.jpg)
 
-## DNS
+## DNS (Domain Name System)
 
 ![dns](https://user-images.githubusercontent.com/19540357/126329587-680de6c9-c47a-4142-b1f4-e3a95cc05707.png)
+![url-dns](https://github.com/AlexGalhardo/Software-Engineering/assets/19540357/c03be150-1458-4427-8c99-80b53364c898)
 
 ## Domain
 
