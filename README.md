@@ -155,6 +155,7 @@ Segundo o economista Milton Friedman, existem 4 maneiras de gastar dinheiro
 - <img src="https://user-images.githubusercontent.com/19540357/81711643-3ff91280-944a-11ea-8062-233c6134aed2.jpg">
 - ![logica-hexagonal](https://user-images.githubusercontent.com/19540357/175309513-433edc44-39fc-4da7-9242-ff9b90e14970.png)
 - ![image-clean-architecture](https://user-images.githubusercontent.com/19540357/175309509-bf2b2327-1528-4d37-9988-b9b5ff365daf.png)
+- ![print-arquitetura-limpa](https://github.com/AlexGalhardo/Software-Engineering/assets/19540357/efb76e89-3920-4db0-995b-5b23cf9b92b5)
 
 ## Bits & Bytes
 - ![main-qimg-f1566a19743b14bb5294c1e0a101a700](https://user-images.githubusercontent.com/19540357/81565313-8168bf80-936f-11ea-900a-0d9e44dfa7a4.png)
