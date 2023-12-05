@@ -19,6 +19,7 @@
 - [Staff Engineering Book](https://staffeng.com/)
 - [Book ShapeUp - BaseCamp](https://basecamp.com/shapeup)
 - [The Stoic Mind: A Visual Exploration Of Stoic Philosophy](https://play.google.com/store/books/details/Addy_Osmani_The_Stoic_Mind?id=ylfPEAAAQBAJ)
+- [The Odin Project](https://www.theodinproject.com/)
 
 ## Articles
 - [Shipping to Production - Approaches for shipping code to production reliably, every time](https://newsletter.pragmaticengineer.com/p/shipping-to-production?s=r)
