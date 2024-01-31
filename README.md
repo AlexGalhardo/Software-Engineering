@@ -27,6 +27,9 @@
 ## Diferenças Informação x Conhecimento
 ![dados_conhecimento](https://user-images.githubusercontent.com/19540357/126878674-de22aca4-e36f-49c3-8d3e-8b55b70830cd.png)
 
+## Conhecimento x Confiança
+![CONHECIMENTO X CONFIANÇA](https://github.com/AlexGalhardo/Software-Engineering/assets/19540357/fe671239-8334-4f26-9d79-f858f4d7715d)
+
 ## Como Aprendemos
 ![piramide_aprendizagem](https://user-images.githubusercontent.com/19540357/126878675-63387927-01ee-470e-ac17-15a200d18bab.png)
 
