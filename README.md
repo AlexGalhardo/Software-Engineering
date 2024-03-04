@@ -529,6 +529,7 @@ This means that even though the request appeared to be valid something went wron
 - [See repository Tree Structure: sudo apt-get install tree](https://askubuntu.com/questions/431251/how-to-print-the-directory-tree-in-terminal)
 - [https://www.slido.com/](https://www.slido.com/)
 - [pulses.com.br](https://www.gupy.io/plataforma-de-clima-e-engajamento)
+- [https://obsidian.md/](https://obsidian.md/)
 
 <h2>Clean Code</h2>
 <p>Ao definir um nome, precisamos ter em mente dois pontos principais:</p>
