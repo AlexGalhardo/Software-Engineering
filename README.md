@@ -49,6 +49,7 @@
 ## SQL
 
 ![SQL resume](https://github.com/AlexGalhardo/Software-Engineering/assets/19540357/9b1aee83-d72d-42a5-9bff-ed7974f8e24b)
+![sql-joins](https://github.com/AlexGalhardo/Software-Engineering/assets/19540357/4a134e61-4465-4bfd-abfb-ce7a29c8095f)
 
 ## Os 4 Passos da Competência
 - 1 - Inconscientemente incompetente: “você não sabe o quanto você não sabe”
