@@ -1067,6 +1067,12 @@ as regras e possam beneficiar-se delas.</p>
 - [YouTube PlayList - What is Docker? from TechWorld with Nana](https://www.youtube.com/watch?v=jPdIRX6q4jA&list=PLy7NrYWoggjzfAHlUusx2wuDwfCrmJYcs)
 - https://livro.descomplicandodocker.com.br/
 
+## Virtual Machines (VMs) vs Containers
+
+<img width="476" alt="vm_x_container" src="https://github.com/AlexGalhardo/Software-Engineering/assets/19540357/8922a07a-245d-4015-9396-753daa441cbf">
+<img width="511" alt="virtual_vs_container_benefits" src="https://github.com/AlexGalhardo/Software-Engineering/assets/19540357/a4bc69ec-96c3-4243-86ae-cb5a92f5ecd4">
+
+
 ## Kubernetes
 
 - [Documentation](https://kubernetes.io/pt-br/docs/_print/)
