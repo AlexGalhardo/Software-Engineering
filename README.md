@@ -1,5 +1,36 @@
-## References
+## Summary
 
+- [References](#references)
+- [Good Articles](articles/README.md)
+- [Terraform](Terraform/)
+- [Crons](#crons)
+- [SQL](#sql)
+- [Os 4 Passos da Competência](#Os-4-Passos-da-Competência)
+- [As 4 Formas de Gastar Dinheiro - Milton Friedman](#As-4-Formas-de-Gastar-Dinheiro-Milton-Friedman)
+- [Principíos](#Principíos)
+- [Atalhos VSCode](#atalhos-vscode)
+- [API](#api)
+- [HTTP](#http)
+- [HTTP Status Codes](#http-status-codes)
+- [Algoritmos e Estrutura de Dados](#algoritmos-e-estrutura-de-dados)
+- [Segurança da Informação](#segurança-da-informação)
+- [Usefull tools](#usefull-tools)
+- [Versionamento Semântico 2.0.0](#versionamento-semântico-200)
+- [Clean Architecture](#clean-architecture)
+- [Microservices](#microservices)
+- [Twelve Factor APP](#twelve-factor-app)
+- [Domain Driven Design](#domain-driven-design)
+- [Teorema CAP](#teorema-cap)
+- [Redes de Computadores](#Redes-de-Computadores)
+- [DNS](#DNS)
+- [Domain](#Domain)
+- [Cloud](#Cloud)
+- [DevOps](#DevOps)
+- [Docker](#Docker)
+- [Virtual Machines (VMs) vs Containers](#virtual-machines-vms-vs-containers)
+- [Kubernetes](#kubernetes)
+
+## References
 - [The Art of Computer Programming - Donald Knuth](https://www.amazon.com.br/Computer-Programming-Volumes-1-4a-Boxed/dp/0321751043/ref=sr_1_1?qid=1575407297&refinements=p_lbr_books_authors_browse-bin%3ADonald+E.+Knuth&s=books&sr=1-1)
 - [Clean Code: A Handbook of Agile Software Craftsmanship - Robert C. Martin Series](https://www.amazon.com.br/dp/B001GSTOAM/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1)
 - [The Mythical Man-Month: Essays on Software Engineering](https://www.amazon.com.br/Mythical-Man-Month-Anniversary-Software-Engineering-ebook/dp/B00B8USS14/ref=sr_1_1?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=11LSVPQBNSMUS&keywords=the+mythical+man-month+essays+on+software+engineering&qid=1568834047&s=gateway&sprefix=The+Mythical+Man-Month%3A+Essays+on+Software+Engineering%2Caps%2C338&sr=8-1)
@@ -23,9 +54,6 @@
 - [The Software Engineering GuideBook](https://www.engguidebook.com/)
 - [ByteByteGO](https://blog.bytebytego.com/)
 
-## Articles
-- [Shipping to Production - Approaches for shipping code to production reliably, every time](https://newsletter.pragmaticengineer.com/p/shipping-to-production?s=r)
-
 ## Diferenças Informação x Conhecimento
 ![dados_conhecimento](https://user-images.githubusercontent.com/19540357/126878674-de22aca4-e36f-49c3-8d3e-8b55b70830cd.png)
 
@@ -38,9 +66,11 @@
 ## Pensamento Crítico
 ![pensamento crítico](https://github.com/AlexGalhardo/Software-Engineering/assets/19540357/01b4a252-1813-4cb5-8ea4-128f65785181)
 
-
 ## Pirâmide de Maslow
 ![piramide_maslow](https://user-images.githubusercontent.com/19540357/126878677-d5dd960a-998a-4b52-979e-c311491038a9.jpg)
+
+## Bits & Bytes
+- ![main-qimg-f1566a19743b14bb5294c1e0a101a700](https://user-images.githubusercontent.com/19540357/81565313-8168bf80-936f-11ea-900a-0d9e44dfa7a4.png)
 
 ## Crons
 - [https://crontab.guru/](https://crontab.guru/)
@@ -76,7 +106,7 @@ Segundo o economista Milton Friedman, existem 4 maneiras de gastar dinheiro
 - [https://www.baboo.com.br/](https://www.baboo.com.br/)
 
 
-## Principles
+## Principíos
 - “Software ruim que adicionar valor > Software perfeito que não adiciona valor.”
 - “Aprenda a dizer: Eu NÃO Sei, e caso necessário, procure aprender.”
 - “Otimização prematura: a raiz de todo mal.”
@@ -155,17 +185,10 @@ Segundo o economista Milton Friedman, existem 4 maneiras de gastar dinheiro
 - 🔍 Ctrl + Shift + F: Pesquisar em arquivos.
 - 🔍 Ctrl + Shift + H: Substituir em arquivos.
 
-## Clean Architecture
-- [TheWisePad - NodeJS & Typescript BackEnd REST API Example - Otavio Lemos](https://github.com/otaviolemos/thewisepad-core)
-- [Livro Arquitetura Limpa na Prática, do Otávio Lemos](https://www.otaviolemos.com.br/)
-- [https://github.com/khaosdoctor/layered-typescript-bookstore](https://github.com/khaosdoctor/layered-typescript-bookstore)
-- <img src="https://user-images.githubusercontent.com/19540357/81711643-3ff91280-944a-11ea-8062-233c6134aed2.jpg">
-- ![logica-hexagonal](https://user-images.githubusercontent.com/19540357/175309513-433edc44-39fc-4da7-9242-ff9b90e14970.png)
-- ![image-clean-architecture](https://user-images.githubusercontent.com/19540357/175309509-bf2b2327-1528-4d37-9988-b9b5ff365daf.png)
-- ![print-arquitetura-limpa](https://github.com/AlexGalhardo/Software-Engineering/assets/19540357/efb76e89-3920-4db0-995b-5b23cf9b92b5)
+## API
+- [Guia de Design REST](https://oliveira-michel.github.io/artigos/2019/07/11/guia-de-design-rest.htm)
 
-## Bits & Bytes
-- ![main-qimg-f1566a19743b14bb5294c1e0a101a700](https://user-images.githubusercontent.com/19540357/81565313-8168bf80-936f-11ea-900a-0d9e44dfa7a4.png)
+![api-architecture](https://github.com/AlexGalhardo/Software-Engineering/assets/19540357/0f567f76-6950-4449-9b93-047d3dd91055)
 
 ## HTTP
 <ul>
@@ -183,12 +206,7 @@ Segundo o economista Milton Friedman, existem 4 maneiras de gastar dinheiro
 <li><a href="https://kinsta.com/pt/aprenda/http2/">O que é HTTP/2 – O Guia Final</a></li>
 </ul>
 
-## API
-- [Guia de Design REST](https://oliveira-michel.github.io/artigos/2019/07/11/guia-de-design-rest.htm)
-
-![api-architecture](https://github.com/AlexGalhardo/Software-Engineering/assets/19540357/0f567f76-6950-4449-9b93-047d3dd91055)
-
-### Methods
+### HTTP Methods
  
  - POST vs PUT vs PATCH
     - Use POST para criação de novos recursos em endpoints de coleção, como api.biblioteca.com/livros.
@@ -454,9 +472,6 @@ This means that even though the request appeared to be valid something went wron
         - [TorProject](https://www.torproject.org/)
            - [TheHiddenWiki](https://thehiddenwiki.org/)
 
-## Articles
-- [CQRS - Martin Fowler](https://martinfowler.com/bliki/CQRS.html)
-
 ## Open Source
   - [OpenSource.org](https://opensource.org/)
   - [OpenSource.guide](https://opensource.guide/)
@@ -487,9 +502,7 @@ This means that even though the request appeared to be valid something went wron
 - [https://pages.github.com/](https://pages.github.com/)
 - [https://vercel.com/](https://vercel.com/)
 - [https://www.digitalocean.com/products/app-platform/](https://www.digitalocean.com/products/app-platform/)
-
-
-
+r
 ## Deploy Dynamic WebApps
 - [Railway.app](https://railway.app/)
 - [Heroku](https://heroku.com/)
@@ -498,7 +511,7 @@ This means that even though the request appeared to be valid something went wron
 - [AWS](https://aws.amazon.com/pt/)
 - [AZURE](https://azure.microsoft.com/en-us/)
 
-## Domain
+## Register Domain
 - [RegistroBR](https://registro.br/)
 - [GoDaddy](https://br.godaddy.com/)
 - [GoogleDomains](https://get.dev/)
@@ -524,7 +537,7 @@ This means that even though the request appeared to be valid something went wron
 - [https://enable-cors.org/](https://enable-cors.org/)
 - [https://schema.org/](https://schema.org/)
 
-## Usefull tools
+## Usefull Tools
 - [https://c4model.com/](https://c4model.com/)
 - [See Total Lines Of Code: https://github.com/AlDanial/cloc](https://github.com/AlDanial/cloc)
 - [See repository Tree Structure: sudo apt-get install tree](https://askubuntu.com/questions/431251/how-to-print-the-directory-tree-in-terminal)
@@ -534,7 +547,7 @@ This means that even though the request appeared to be valid something went wron
 - [https://asdf-vm.com/](https://asdf-vm.com/)
 - [https://volta.sh/](https://volta.sh/)
 
-<h2>Clean Code</h2>
+## Clean Code
 <p>Ao definir um nome, precisamos ter em mente dois pontos principais:</p>
 <ul>
 <li>Ser preciso: precisamos passar a ideia central da nossa variável ou método, sem dar voltas, sendo conciso e direto.</li>
@@ -567,7 +580,8 @@ This means that even though the request appeared to be valid something went wron
 </ul>
 
 <br>
-<h2>Don't Repeat Yourself - DRY</h2>
+
+## Don't Repeat Yourself - DRY
 <p>DRY é o acrônimo para Don’t repeat yourself (Não repita a si mesmo). É o conceito que diz que cada parte de conhecimento do sistema deve possuir apenas uma representação. Desta forma, evitando a ambiguidade do código. Em outras palavras, não deve existir duas partes do programa que desempenham a mesma função, ou seja, o famoso copiar e colar no código.
 
 <p>Mas porque evitar repetição? Simples!</p>
@@ -785,6 +799,14 @@ Versionamento Semântico é declarar que você o esta usando e então, seguir as
 regras. Adicione um link para este website no seu README para que outros saibam
 as regras e possam beneficiar-se delas.</p>
 
+## Clean Architecture
+- [TheWisePad - NodeJS & Typescript BackEnd REST API Example - Otavio Lemos](https://github.com/otaviolemos/thewisepad-core)
+- [Livro Arquitetura Limpa na Prática, do Otávio Lemos](https://www.otaviolemos.com.br/)
+- [https://github.com/khaosdoctor/layered-typescript-bookstore](https://github.com/khaosdoctor/layered-typescript-bookstore)
+- <img src="https://user-images.githubusercontent.com/19540357/81711643-3ff91280-944a-11ea-8062-233c6134aed2.jpg">
+- ![logica-hexagonal](https://user-images.githubusercontent.com/19540357/175309513-433edc44-39fc-4da7-9242-ff9b90e14970.png)
+- ![image-clean-architecture](https://user-images.githubusercontent.com/19540357/175309509-bf2b2327-1528-4d37-9988-b9b5ff365daf.png)
+- ![print-arquitetura-limpa](https://github.com/AlexGalhardo/Software-Engineering/assets/19540357/efb76e89-3920-4db0-995b-5b23cf9b92b5)
 
 ## Microservices
 <ul>
@@ -861,7 +883,7 @@ as regras e possam beneficiar-se delas.</p>
 <p>Levando o raciocínio acima para projetos de software, a UML deve ser utilizada para comunicar o que se quer e/ou como se quer, de maneira eficiente.</p>
 
 
-## DDD - Domain Driven Design
+## Domain Driven Design
 
 <ul>
 <li><a href="ddd.pdf">Livro Domain Driven Design - Eric Evans</a></li>
@@ -991,7 +1013,7 @@ as regras e possam beneficiar-se delas.</p>
     - Tree Way Handshake
        - ![tree-way-handshake](https://user-images.githubusercontent.com/19540357/81460481-28ddca80-9195-11ea-883a-d2b94b63cfa2.jpg)
 
-## DNS (Domain Name System)
+## DNS
 
 ![dns](https://user-images.githubusercontent.com/19540357/126329587-680de6c9-c47a-4142-b1f4-e3a95cc05707.png)
 ![url-dns](https://github.com/AlexGalhardo/Software-Engineering/assets/19540357/c03be150-1458-4427-8c99-80b53364c898)
@@ -1074,13 +1096,12 @@ as regras e possam beneficiar-se delas.</p>
 <img width="476" alt="vm_x_container" src="https://github.com/AlexGalhardo/Software-Engineering/assets/19540357/8922a07a-245d-4015-9396-753daa441cbf">
 <img width="511" alt="virtual_vs_container_benefits" src="https://github.com/AlexGalhardo/Software-Engineering/assets/19540357/a4bc69ec-96c3-4243-86ae-cb5a92f5ecd4">
 
+![deploy-kub](https://user-images.githubusercontent.com/19540357/165997551-bb8923f1-4bec-409b-b604-b73ddd1049f7.svg)
 
 ## Kubernetes
 
 - [Documentation](https://kubernetes.io/pt-br/docs/_print/)
 - [YouTube Video - Kubernetes Tutorial for Beginners [FULL COURSE in 4 Hours]](https://www.youtube.com/watch?v=X48VuDVv0do)
-
-- ![deploy-kub](https://user-images.githubusercontent.com/19540357/165997551-bb8923f1-4bec-409b-b604-b73ddd1049f7.svg)
 - ![kb-01](https://user-images.githubusercontent.com/19540357/165997536-0fc77950-4b57-4dd7-9960-1341e6983ca6.png)
 - ![kb-02](https://user-images.githubusercontent.com/19540357/165997544-f2b90436-5d0a-4852-b9be-cea8d1ed6af7.png)
 - ![kb-03](https://user-images.githubusercontent.com/19540357/165997547-17182379-efbc-414e-8253-d0c593b42f77.png)
