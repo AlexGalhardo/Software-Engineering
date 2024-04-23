@@ -69,6 +69,10 @@
 ## Pirâmide de Maslow
 ![piramide_maslow](https://user-images.githubusercontent.com/19540357/126878677-d5dd960a-998a-4b52-979e-c311491038a9.jpg)
 
+## Zona de Crescimento
+![zona-de-aprendizagem](https://github.com/AlexGalhardo/Software-Engineering/assets/19540357/02c4e2de-8823-45e3-a07a-061c616dfe1d)
+
+
 ## Bits & Bytes
 - ![main-qimg-f1566a19743b14bb5294c1e0a101a700](https://user-images.githubusercontent.com/19540357/81565313-8168bf80-936f-11ea-900a-0d9e44dfa7a4.png)
 
