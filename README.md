@@ -550,9 +550,13 @@ r
 - [https://obsidian.md/](https://obsidian.md/)
 - [https://asdf-vm.com/](https://asdf-vm.com/)
 - [https://volta.sh/](https://volta.sh/)
-- [npm ntl](https://www.npmjs.com/package/ntl)
-- [npm ncu](https://www.npmjs.com/package/npm-check-updates)
-- [npm lite-server](https://www.npmjs.com/package/lite-server)
+- npm
+   - [ntl](https://www.npmjs.com/package/ntl)
+   - [ncu](https://www.npmjs.com/package/npm-check-updates)
+   - [lite-server](https://www.npmjs.com/package/lite-server)
+   - [autocannon](https://github.com/mcollina/autocannon)
+   - [cli-progress](https://www.npmjs.com/package/cli-progress)
+   - [pm2](https://www.npmjs.com/package/pm2)
 
 ## Clean Code
 <p>Ao definir um nome, precisamos ter em mente dois pontos principais:</p>
