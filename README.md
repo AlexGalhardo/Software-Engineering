@@ -557,6 +557,7 @@ r
    - [autocannon](https://github.com/mcollina/autocannon)
    - [cli-progress](https://www.npmjs.com/package/cli-progress)
    - [pm2](https://www.npmjs.com/package/pm2)
+   - [lerna](https://lerna.js.org/)
 
 ## Clean Code
 <p>Ao definir um nome, precisamos ter em mente dois pontos principais:</p>
