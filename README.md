@@ -558,6 +558,8 @@ r
    - [cli-progress](https://www.npmjs.com/package/cli-progress)
    - [pm2](https://www.npmjs.com/package/pm2)
    - [lerna](https://lerna.js.org/)
+   - [https://nextra.site/](nextra.site)
+   - [https://create.t3.gg/](https://create.t3.gg/)
 
 ## Clean Code
 <p>Ao definir um nome, precisamos ter em mente dois pontos principais:</p>
