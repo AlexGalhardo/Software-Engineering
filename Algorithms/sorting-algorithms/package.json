@@ -1,0 +1,19 @@
+{
+  "name": "learning-big-o-notation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "create-unsort-array.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ansi-colors": "^4.1.3",
+    "cli-progress": "^3.12.0"
+  },
+  "devDependencies": {
+    "@types/cli-progress": "^3.11.5"
+  }
+}
