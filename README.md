@@ -53,6 +53,7 @@
 - [The Odin Project](https://www.theodinproject.com/)
 - [The Software Engineering GuideBook](https://www.engguidebook.com/)
 - [ByteByteGO](https://blog.bytebytego.com/)
+- [Grokking Algorithms](https://github.com/egonSchiele/grokking_algorithms/tree/master)
 
 ## Diferenças Informação x Conhecimento
 ![dados_conhecimento](https://user-images.githubusercontent.com/19540357/126878674-de22aca4-e36f-49c3-8d3e-8b55b70830cd.png)
