@@ -524,7 +524,7 @@ r
 - [NameCheap](https://www.namecheap.com)
 - [Name.com](https://www.name.com/) 
 
-## Usefull Sites
+## Useful Sites
 - [https://www.submarinecablemap.com/](https://www.submarinecablemap.com/)
 - [https://www.similartech.com/](https://www.similartech.com/)
 - [https://w3techs.com/](https://w3techs.com/)
@@ -542,6 +542,7 @@ r
 - [https://choosealicense.com/](https://choosealicense.com/)
 - [https://enable-cors.org/](https://enable-cors.org/)
 - [https://schema.org/](https://schema.org/)
+- [https://www.scaler.com/blog/](https://www.scaler.com/blog/)
 
 ## Usefull Tools
 - [https://c4model.com/](https://c4model.com/)
