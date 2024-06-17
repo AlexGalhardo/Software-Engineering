@@ -542,6 +542,9 @@ r
 - [https://choosealicense.com/](https://choosealicense.com/)
 - [https://enable-cors.org/](https://enable-cors.org/)
 - [https://schema.org/](https://schema.org/)
+- [https://schema.org/](https://schema.org/)
+- [https://www.scaler.com/blog/](https://www.scaler.com/blog/)
+
 
 ## Usefull Tools
 - [https://c4model.com/](https://c4model.com/)
