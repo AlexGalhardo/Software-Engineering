@@ -40,6 +40,7 @@
   - [Sistemas Operacionais: Projeto e Implementação](https://www.amazon.com.br/Sistemas-Operacionais-Projeto-Implementa%C3%A7%C3%A3o-Portuguese/dp/8577800571)
   - [Compilers: Principles, Techniques, and Tools - Dragon Book](https://www.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811)
   - [dicasdecarreira.dev](https://dicasdecarreira.dev)
+  - [The Developer Experience Book](https://dx.addy.ie/)
 - Blogs & Articles
   - [Rob Pike's 5 Rules of Programming](https://users.ece.utexas.edu/~adnan/pike.html)
   - [https://martinfowler.com/](https://martinfowler.com/)
