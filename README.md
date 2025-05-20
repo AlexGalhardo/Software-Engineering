@@ -41,6 +41,9 @@
   - [Compilers: Principles, Techniques, and Tools - Dragon Book](https://www.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811)
   - [dicasdecarreira.dev](https://dicasdecarreira.dev)
   - [The Developer Experience Book](https://dx.addy.ie/)
+  - [Entendendo Algoritmos](https://www.amazon.com.br/Entendendo-Algoritmos-Ilustrado-Programadores-Curiosos/dp/8575225634)
+  - [ReadMake](https://readmake.com/)
+  - [The Lean Startup](https://www.amazon.com.br/Lean-Startup-Entrepreneurs-Continuous-Innovation-ebook/dp/B004J4XGN6/ref=sr_1_2?crid=32L19B08WCGVH&dib=eyJ2IjoiMSJ9.quf6jNOvaTu2aViGFXxGjBKiVWR24kRMUChulsvMrwtEM3q3CjH7SRLJbPwVYOyZZ43zcMmrxOeWtqUi49Uc2I1ti4TyGyNNEPHYmmLpukvEmc-1TuD_JGLPZbD6w1fKTcWiUGQzL9N7dULY1Ht_NYCPdJmVki8bK-OVmUypxfWJPp8qUUSmdoiHAkahCu19d9OVijNwmHSj5cgc7nGoYvC214XYoXj-ul21399L8lOQFm397LF1pgdLp5khsuTADJixoWq4s8pQcPJg9IJVxuB8m8hJ58j2PPHUdoJwlkM.-etKRjBuZUheWSBIJd7Vk-ijHwiBe1zarifdMySinp4&dib_tag=se&keywords=lean+startup&qid=1747747819&sprefix=lean+startup%2Caps%2C289&sr=8-2)
 - Blogs & Articles
   - [Rob Pike's 5 Rules of Programming](https://users.ece.utexas.edu/~adnan/pike.html)
   - [https://martinfowler.com/](https://martinfowler.com/)
