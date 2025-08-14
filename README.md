@@ -138,22 +138,3 @@ According to economist Milton Friedman, there are 4 ways to spend money:
 ## Maslow's Pyramid
 
 <img width="100%" alt="img"  src="https://alexgalhardo.vercel.app/images/maslows-pyramid.png">
-
-
-<br><br>
-
-<div align="center">
-    <h4 align="center">Always Have Fun</h4>
-</div>
-
-<br>
-
-<div align="center">
-    <h4 align="center">Stay Hungry, Stay Foolish</h4>
-</div>
-
-<br>
-
-<div align="center">
-    <h4 align="center"><a href="https://alexgalhardo.com" target="_blank">alexgalhardo.com</a></h4>
-</div>
