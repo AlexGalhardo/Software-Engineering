@@ -1,0 +1,15 @@
+{
+  "name": "github-actions-course-example-e2e",
+  "version": "1.0.0",
+  "description": "Example repository for reusable workflows with Cypress standard setup",
+  "main": "index.js",
+  "scripts": {
+    "test:e2e": "cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "13.6.1"
+  }
+}

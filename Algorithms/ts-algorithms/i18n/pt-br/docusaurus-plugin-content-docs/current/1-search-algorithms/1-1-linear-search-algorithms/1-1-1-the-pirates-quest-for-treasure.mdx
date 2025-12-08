@@ -1,0 +1,30 @@
+---
+sidebar_position: 1
+---
+
+import { Editor } from '../../../../../../src/algorithms/editor/editor'
+
+# 1. A busca do Pirata pelo Tesouro
+
+![A busca do Pirata pelo Tesouro](./img/1-1-1.png)
+
+Nesta aventura pirata, o Capitão Tom enterrou seu tesouro atrás de uma árvore com um certo número de galhos, conforme
+indicado no mapa do tesouro. No entanto, nesta ilha, cada árvore é única em termos do número de galhos que possui. Dado
+um array representando o número de galhos em cada árvore, localize a árvore com o número de galhos especificado.
+
+Se a árvore com o número de galhos especificado não for encontrada, retorne -1.
+
+```typescript
+const galhosNasArvores = [2, 4, 6, 8, 10]
+const quantidadeDeGalhosComTesouro = 6
+encontrarIndiceDaArvorePorGalhos(galhosNasArvores, quantidadeDeGalhosComTesouro)
+// Saída Esperada: Índice da árvore com 6 galhos (2)
+```
+
+<Editor
+  editorHeight={150}
+  args="[2, 4, 6, 8, 10], 6"
+  expectedResult="2"
+  initialCode={`function encontrarIndiceDaArvorePorGalhos (galhosNasArvores: number[], quantidadeDeGalhosComTesouro: number): number {
+  return -1
+}`} />

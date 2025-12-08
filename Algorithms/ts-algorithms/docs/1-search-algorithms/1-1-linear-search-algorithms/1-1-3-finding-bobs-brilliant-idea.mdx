@@ -1,0 +1,39 @@
+---
+sidebar_position: 3
+---
+
+import { Editor } from '../../../src/algorithms/editor/editor'
+
+# 3. Finding Bob's Brilliant Idea
+
+![Finding Bob's Brilliant Idea](./img/1-1-3.png)
+
+You're a teacher in charge of a class project where each student contributes their ideas. You've collected the project
+proposals from your students, and now you need to find Bob's proposal to review it. Bob's proposal contains innovative
+ideas crucial for the success of the project.
+
+If Bob's proposal is not found, return -1.
+
+```typescript
+const projectProposals = [
+  { name: "Alice", idea: "Idea A" },
+  { name: "Bob", idea: "Idea B" },
+  { name: "Charlie", idea: "Idea C" }
+]
+const targetName = "Bob"
+findProposalIndexByName(projectProposals, targetName)
+// Expected Output: Index of Bob's proposal (1)
+```
+
+<Editor
+  editorHeight={250}
+  args='[{ name: "Alice", idea: "Idea A" }, { name: "Bob", idea: "Idea B" }, { name: "Charlie", idea: "Idea C" }], "Bob"'
+  expectedResult="1"
+  initialCode={`type ProjectProposal = {
+  name: string
+  idea: string
+}
+
+function findProposalIndexByName (projectProposals: ProjectProposal[], targetName: string): number {
+  return -1
+}`} />

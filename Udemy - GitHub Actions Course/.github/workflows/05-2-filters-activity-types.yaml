@@ -1,0 +1,17 @@
+# See 05-filters-activity-types/README.md for more information
+# about filtering and specifying activity types for events.
+
+name: 05 - 2 - Event Filters and Activity Types
+
+on:
+  pull_request:
+    types:
+      - closed
+    branches:
+      - main
+
+jobs:
+  echo:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Running whenever a PR is closed"

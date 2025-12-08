@@ -1,0 +1,36 @@
+---
+sidebar_position: 1
+---
+
+import { Editor } from '../../../src/algorithms/editor/editor'
+
+# 1. The Library's Book Search
+
+![The Library's Book Search](./img/2-1-1.png)
+
+In a vast library containing thousands of books, each book is labeled with a unique identification number. Librarian
+Jane needs to locate a specific book requested by a patron. Given an array representing the identification numbers of
+the books in the library, help Librarian Jane find the index of the book with the specified identification number.
+
+If the specified identification number is not found, return -1.
+
+:::note
+
+This problem can be solved by linear search as well, but make sure you solve it using binary search.
+
+:::
+
+```typescript
+const libraryBooks = [102, 205, 308, 410, 523, 636, 749, 852, 965, 1078]
+const bookId = 410
+findBookIndex(libraryBooks, bookId)
+// Expected Output: Index of book with ID 410 (3)
+```
+
+<Editor
+  editorHeight={450}
+  args="[102, 205, 308, 410, 523, 636, 749, 852, 965, 1078], 410"
+  expectedResult="3"
+  initialCode={`function findBookIndex (libraryBooks: number[], bookId: number): number {
+  return -1
+}`} />

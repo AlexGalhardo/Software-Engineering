@@ -1,0 +1,39 @@
+# See 18-reusable-workflows/README.md for more information
+# about how to define reusable workflows and how to use
+# them.
+
+name: 18 - 1 - Reusable Workflows - Reusable Definition
+
+on:
+  workflow_call:
+    inputs:
+      target-directory:
+        type: string
+        required: true
+    outputs:
+      build-status:
+        description: The status of the build process
+        value: ${{ jobs.deploy.outputs.build-status }}
+      url:
+        description: The url of the deployed version
+        value: ${{ jobs.deploy.outputs.url }}
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    outputs:
+      build-status: ${{ steps.build.outputs.build-status }}
+      url: ${{ steps.deploy.outputs.url }}
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+      - name: Build
+        id: build
+        run: |
+          echo "Building using directory ${{ inputs.target-directory }}"
+          echo "build-status=success" >> "$GITHUB_OUTPUT"
+      - name: Deploy
+        id: deploy
+        run: |
+          echo "Deploying build artifacts"
+          echo "url=https://www.google.com" >> "$GITHUB_OUTPUT"

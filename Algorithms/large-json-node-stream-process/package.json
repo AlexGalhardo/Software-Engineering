@@ -1,0 +1,23 @@
+{
+  "name": "read-node-gzip",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@tsconfig/node20": "20.1.4",
+    "@types/node": "20.14.9",
+    "@types/stream-json": "1.7.7",
+    "prisma": "5.16.1",
+    "tsx": "4.16.2",
+    "typescript": "5.5.3"
+  },
+  "dependencies": {
+    "@prisma/client": "5.16.1",
+    "axios": "1.7.2",
+    "stream-chain": "2.2.5",
+    "stream-json": "1.8.0"
+  }
+}

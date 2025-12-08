@@ -1,0 +1,110 @@
+---
+sidebar_position: 2
+---
+
+import { BinaryArraySearch } from '../../../../../src/algorithms/code/binary-array-search/binary-array-search'
+
+# Busca binária
+
+### Introdução
+
+A busca binária é um algoritmo fundamental usado para encontrar rapidamente um valor alvo dentro de um array ou
+lista ordenada. Ao contrário da busca linear, que verifica cada elemento um por um, a busca binária utiliza a
+estratégia de dividir e conquistar para reduzir rapidamente o tempo da busca.
+
+:::note
+
+Embora seja muito mais rápido do que a busca linear, lembre-se de que ela só funciona em arrays ordenados.
+
+:::
+
+### Como funciona
+
+A busca binária funciona dividindo o array ordenado ao meio várias vezes e depois descobrindo em qual metade está o
+valor que estamos procurando. Aqui está uma explicação simplificada em passos:
+
+1. **Definir o Intervalo de Busca**: Começamos olhando para o array inteiro.
+2. **Encontrar o Elemento do Meio**: Descobrimos o meio do intervalo que estamos olhando.
+3. **Comparar com o Alvo**: Vemos se o valor do meio é o que estamos procurando.
+4. **Ajustar o Intervalo de Busca**: Se não for, decidimos se o nosso alvo está na metade superior ou inferior do intervalo.
+5. **Repetir**: Continuamos fazendo isso até encontrarmos o que estamos procurando ou não haver mais nada para olhar.
+
+### Exemplo
+
+Vamos mostrar como a busca binária funciona com um exemplo simples em TypeScript. Imagine que temos um array de
+números ordenados:
+
+```typescript
+const numeros: number[] = [2, 3, 5, 6, 8, 10]
+```
+
+Agora, vamos tentar encontrar onde está o número 6 nesse array. Escreveríamos uma função de busca binária assim:
+
+```typescript
+function buscaBinaria (array: number[], alvo: number): number {
+  if (array.length === 0) return -1 // Retorna -1 se o array estiver vazio
+
+  let low = 0 // Inicializa o ponteiro inferior para o início do array
+  let high = array.length - 1 // Inicializa o ponteiro superior para o final do array
+
+  while (low <= high) { // Repete até que o ponteiro inferior seja menor ou igual ao ponteiro superior
+    const mid = Math.floor((low + high) / 2) // Calcula o índice médio do array
+
+    if (target === array[mid]) {
+      return mid // Se o alvo for encontrado no índice médio, retorna o índice
+    }
+    else if (array[mid] > target) {
+      high = mid - 1 // Se o alvo for menor que o valor no índice médio, move o ponteiro superior para mid - 1
+    }
+    else {
+      low = mid + 1 /// Se o alvo for maior que o valor no índice médio, move o ponteiro inferior para mid + 1
+    }
+  }
+
+  return -1 // Retorna -1 se o alvo não for encontrado no array
+}
+```
+
+Vamos usar essa função para encontrar o índice do número 6 no array de números:
+
+```typescript
+const indiceAlvo = buscaBinaria(numeros, 6)
+console.log("Index of 6:", indiceAlvo) // Saída: Índice do número 6: 3
+```
+
+### Exemplo Visual
+
+#### Elemento existe no array: `21`
+
+<BinaryArraySearch array={[1, 4, 7, 9, 12, 15, 16, 17, 21, 25]} element={21} />
+
+<hr />
+
+#### Elemento não existe no array: `3`
+
+<BinaryArraySearch array={[2, 4, 5, 7, 9, 10, 13, 18, 22, 31]} element={3} />
+
+### Vantagens da Busca Binária
+
+A busca binária oferece várias vantagens sobre a busca linear:
+
+- **Otimização**: Ao dividir o espaço de busca pela metade a cada etapa, a busca binária se aproxima rapidamente do
+valor desejado, reduzindo o número de comparações necessárias.
+- **Requisito de Dados Ordenados**: Embora a busca binária precise que o array esteja ordenada, os ganhos de desempenho
+geralmente compensam o custo da ordenação. No entanto, é importante notar que a ordenação em si tem seu próprio custo
+computacional. Assim, geralmente só vale a pena ordenar o array se você planeja fazer várias buscas.
+
+### Casos de uso
+
+A busca binária é especialmente útil em situações onde precisamos recuperar rapidamente dados de um array ordenada.
+Alguns casos comuns incluem:
+
+1. **Consultas em Banco de Dados**: É usada em sistemas de banco de dados para encontrar registros de forma eficiente
+usando chaves indexadas.
+2. **Algoritmos de Busca**: Serve como base para muitos algoritmos de busca, incluindo estruturas de dados baseadas em
+árvores como árvores de busca binária.
+3. **Algoritmos de Ordenação**: É empregada em algoritmos de ordenação como o merge sort e o quicksort para dividir e
+buscar elementos.
+
+A busca binária é um poderoso algoritmo que torna a busca muito mais eficiente, especialmente para grandes conjuntos de
+dados, aproveitando a estrutura natural de array ordenados.

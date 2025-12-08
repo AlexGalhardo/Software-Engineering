@@ -1,0 +1,58 @@
+# See 10-execution-flow/README.md for more information
+# about which features GitHub Actions offers in order
+# to control the flow of workflows.
+
+name: 10 - Controlling the Execution Flow
+
+on:
+  workflow_dispatch:
+    inputs:
+      pass-unit-tests:
+        type: boolean
+        description: Whether unit tests will pass or not
+        default: true
+
+jobs:
+  lint-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Lint and build
+        run: echo "Linting and building project"
+  unit-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Running unit tests
+        run: echo "Running tests..."
+      - name: Failing tests
+        if: ${{ !inputs.pass-unit-tests }}
+        run: exit 1
+  deploy-nonprod:
+    runs-on: ubuntu-latest
+    needs:
+      - lint-build
+      - unit-tests
+    steps:
+      - name: Deploying to nonprod
+        run: echo "Deploying to nonprod..."
+  e2e-tests:
+    runs-on: ubuntu-latest
+    needs:
+      - deploy-nonprod
+    steps:
+      - name: Running E2E tests
+        run: echo "Running E2E tests"
+  load-tests:
+    runs-on: ubuntu-latest
+    needs:
+      - deploy-nonprod
+    steps:
+      - name: Running load tests
+        run: echo "Running load tests"
+  deploy-prod:
+    runs-on: ubuntu-latest
+    needs:
+      - e2e-tests
+      - load-tests
+    steps:
+      - name: Deploying to prod
+        run: echo "Deploying to prod..."

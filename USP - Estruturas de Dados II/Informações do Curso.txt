@@ -1,0 +1,43 @@
+http://www.lcad.icmc.usp.br/~jbatista/scc503/
+
+Programa
+
+Fundamentos de grafos e arquivos.
+Grafos
+Definições e conceitos
+Estruturas de dados mais usadas para grafos
+Caminhamento em grafos
+Caminhos míninos
+Coloração
+Ordenação topológica
+Árvores Geradoras
+Arquivos
+Definições e código básico para manipulação de arquivos
+Armazanamento secundário
+Sistemas de Arquivos
+Organização de arquivos
+Índices
+processamento co-sequencial
+Arvores B
+Hashing externo
+
+http://www.cplusplus.com/reference/
+
+http://en.cppreference.com/w/c
+
+https://www.hackerearth.com/practice/algorithms/graphs/breadth-first-search/tutorial/
+
+
+Algoritmos para Grafos em C
+http://www.ime.usp.br/~pf/algoritmos_para_grafos/
+https://www.cs.auckland.ac.nz/software/AlgAnim/dijkstra.html
+http://www.cprogramming.com/tutorial/computersciencetheory/dijkstra.html
+
+Bibliografia
+
+SEDGEWICK, R. Algorithms in C: part 5 -- graph algorithms, 3.ed., Addison-Wesley, 2002. 
+FOLK, M.J. File Structures. Addison-Wesley, 1992. 
+ZIVIANI, N. Projeto de Algoritmos, 3.ed. Cengage, 2010. 
+CORMEN, T.H.; LEISERSON, C.E.; RIVEST, R.L.; STEIN, C. Algoritmos: Teoria e Prática. Campus. 2002. 
+
+KRUSE, R. and LEUNG, B. Data Structures and Program Design In C (2nd Edition) 2nd Edition 

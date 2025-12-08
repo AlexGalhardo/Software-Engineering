@@ -1,0 +1,2 @@
+- https://www.digikey.com/schemeit/project/
+- http://www.cburch.com/logisim/pt/index.html

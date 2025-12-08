@@ -1,0 +1,36 @@
+---
+sidebar_position: 5
+---
+
+import { Editor } from '../../../src/algorithms/editor/editor'
+
+# 5. Genetic Mutation Analysis
+
+![Genetic Mutation Analysis](./img/2-1-5.png)
+
+In a cutting-edge genetic research facility, scientists are analyzing DNA sequences to identify potential mutations.
+Each DNA sequence is represented as a string of nucleotides, where each nucleotide can be one of four letters: A, C, G,
+or T. The research team has discovered that certain sequences of nucleotides are indicative of specific mutations.
+Given a sorted array of DNA sequences, implement a function to search for a target DNA sequence and determine if it
+contains any mutations.
+
+:::note
+
+This problem can be solved by linear search as well, but make sure you solve it using binary search.
+
+:::
+
+```typescript
+const dnaSequences = ['ACGT', 'CGTA', 'GTAC', 'TACG', 'ATCG']
+const targetSequence = 'ATCG'
+searchForMutation(dnaSequences, targetSequence)
+// Expected Output: Index of the target DNA sequence (true)
+```
+
+<Editor
+  editorHeight={450}
+  args="['ACGT', 'CGTA', 'GTAC', 'TACG', 'ATCG'], 'ATCG'"
+  expectedResult={true}
+  initialCode={`function searchForMutation (dnaSequences: string[], targetSequence: string): boolean {
+  return false
+}`} />

@@ -1,0 +1,35 @@
+---
+sidebar_position: 4
+---
+
+import { Editor } from '../../../../../../src/algorithms/editor/editor'
+
+# 4. Plataforma de Troca de Criptomoedas
+
+![Plataforma de Troca de Criptomoedas](./img/2-1-4.png)
+
+Em uma plataforma descentralizada de troca de criptomoedas, traders estão constantemente comprando e vendendo ativos
+digitais. A plataforma mantém uma lista ordenada de timestamps (carimbos de data e hora) das transações para rastrear a
+ordem das operações. No entanto, devido a atrasos de rede e tempos de processamento, alguns timestamps podem estar
+levemente fora de ordem. Dado um array ordenado representando os timestamps das transações, implemente uma função para
+encontrar o menor timestamp ausente na sequência.
+
+:::note
+
+Este problema também pode ser resolvido por busca linear, mas certifique-se de resolvê-lo usando busca binária.
+
+:::
+
+```typescript
+const transacoes = [0, 1, 2, 3, 5, 6, 7, 8]
+encontrarTimestampAusente(transacoes)
+// Saída Esperada: Menor timestamp ausente (4)
+```
+
+<Editor
+  editorHeight={450}
+  args="[0, 1, 2, 3, 5, 6, 7, 8]"
+  expectedResult="4"
+  initialCode={`function encontrarTimestampAusente (transacoes: number[]): number {
+  return 0
+}`} />

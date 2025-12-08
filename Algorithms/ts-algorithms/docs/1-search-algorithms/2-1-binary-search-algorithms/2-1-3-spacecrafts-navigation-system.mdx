@@ -1,0 +1,36 @@
+---
+sidebar_position: 3
+---
+
+import { Editor } from '../../../src/algorithms/editor/editor'
+
+# 3. Spacecraft's Navigation System
+
+![Spacecraft's Navigation System](./img/2-1-3.png)
+
+In a distant galaxy, a spacecraft is exploring uncharted territories. The navigation system of the spacecraft relies on
+a series of unique beacon signals emitted by celestial bodies. Given a sorted array representing the frequencies of the
+beacon signals, the spacecraft needs to find the frequency closest to a specified target frequency. However, due to
+interference from cosmic radiation, some signals may be corrupted or missing. Implement a function to find the closest
+frequency to the target frequency.
+
+:::note
+
+This problem can be solved by linear search as well, but make sure you solve it using binary search.
+
+:::
+
+```typescript
+const beaconFrequencies = [100, 200, 300, 400, 500]
+const targetFrequency = 350
+findClosestFrequency(beaconFrequencies, targetFrequency)
+// Expected Output: Index of closest frequency to 350 (2)
+```
+
+<Editor
+  editorHeight={450}
+  args="[100, 200, 300, 400, 500], 350"
+  expectedResult="2"
+  initialCode={`function findClosestFrequency (beaconFrequencies: number[], targetFrequency: number): number {
+  return 0
+}`} />

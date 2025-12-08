@@ -1,0 +1,30 @@
+{
+  "version.label": {
+    "message": "Próximo",
+    "description": "The label for version current"
+  },
+  "sidebar.algorithmsSidebar.category.Search algorithms": {
+    "message": "Algoritmos de busca",
+    "description": "The label for category Search algorithms in sidebar algorithmsSidebar"
+  },
+  "sidebar.algorithmsSidebar.category.Search algorithms.link.generated-index.description": {
+    "message": "No mundo da programação, os algoritmos de busca são como caçadores de tesouros procurando por uma joia escondida em um grande monte de pedras. Mas afinal, o que são esses algoritmos de busca e por que devemos nos importar com eles?",
+    "description": "The generated-index page description for category Search algorithms in sidebar algorithmsSidebar"
+  },
+  "sidebar.algorithmsSidebar.category.Linear search exercises": {
+    "message": "Exercícios com busca linear",
+    "description": "The label for category Linear search exercises in sidebar algorithmsSidebar"
+  },
+  "sidebar.algorithmsSidebar.category.Linear search exercises.link.generated-index.description": {
+    "message": "Pronto para dominar a busca linear? Explore e complete esses exercícios!",
+    "description": "The generated-index page description for category Linear search exercises in sidebar algorithmsSidebar"
+  },
+  "sidebar.algorithmsSidebar.category.Binary search exercises": {
+    "message": "Exercícios com busca binária",
+    "description": "The label for category Binary search exercises in sidebar algorithmsSidebar"
+  },
+  "sidebar.algorithmsSidebar.category.Binary search exercises.link.generated-index.description": {
+    "message": "Pronto para dominar a busca binária? Explore e complete esses exercícios!",
+    "description": "The generated-index page description for category Binary search exercises in sidebar algorithmsSidebar"
+  }
+}

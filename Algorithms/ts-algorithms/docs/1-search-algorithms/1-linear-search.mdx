@@ -1,0 +1,82 @@
+---
+sidebar_position: 1
+---
+
+import { LinearArraySearch } from '../../src/algorithms/code/linear-array-search/linear-array-search'
+
+# Linear search
+
+### Introduction
+
+Linear search, also known as sequential search, is a straightforward algorithm used to find a target value within a list or an array. This search method sequentially checks each element of the list until a match is found or until all the elements have been examined.
+
+To comprehend linear search in TypeScript, let's consider a basic example. Suppose we have an array of numbers:
+
+```typescript
+const numbers: number[] = [10, 5, 8, 2, 6, 3]
+```
+
+Now, let's say we want to find the index of a specific number in this array, for example 6. We would write a linear search function like this:
+
+```typescript
+function linearSearch (array: number[], target: number): number {
+  if (array.length === 0) return -1 // Return -1 if the array is empty
+
+  for (let i = 0; i < array.length; i++) { // Loop through the array
+    if (array[i] === target) { // Checks if the current element is equal to the target
+      return i // Return the index if the target is found
+    }
+  }
+
+  return -1 // Return -1 if the target is not found
+}
+```
+
+Let's use this function to find the index of the number 6 in the numbers array:
+
+```typescript
+const targetIndex = linearSearch(numbers, 6)
+console.log("Index of 6:", targetIndex) // Output: Index of 6: 4
+```
+
+The function returns 4, which is the index of the number 6 in the numbers array.
+
+Linear search is like when you look at each card in a deck until you find the card you're looking for. However, if the
+deck is very large, it can take a while. The more cards there are, the longer it takes to find the right card. Other
+search methods may be faster, but linear search is still important for understanding how the others work.
+
+### Visual example
+
+#### Element exists in array: `6`
+
+<LinearArraySearch array={[10, 5, 8, 2, 6, 3]} element={6} />
+
+<hr />
+
+#### Element does not exists in array: `3`
+
+<LinearArraySearch array={[15, 2, 6, 8, 1, 9]} element={3} />
+
+### Other methods of linear search
+
+#### Using `findIndex` Method:
+
+The [findIndex](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex) method in TypeScript's array prototype searches for an element that satisfies the provided testing function. Here's how you can utilize findIndex:
+
+```typescript
+function linearSearchFindIndex (arr: number[], target: number): number {
+  return arr.findIndex(num => num === target)
+}
+```
+
+Is it possible to use other methods like [find](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find)
+or [for...of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of), but findIndex is the most efficient
+for this case because it stops when it finds the first occurrence, and because it already searches for the index, which is often expected
+by a linear search algorithm.
+
+### Use cases
+
+Linear search is commonly used in scenarios where you need to find a specific element within an array or a collection of elements. Here are some typical use cases:
+
+1. **Small arrays**: Linear search is effective for small arrays where the overhead of implementing more complex search algorithms like binary search would outweigh the benefits.
+2. **Unordered arrays**: When the array is not sorted, linear search remains a straightforward choice. Sorting the array before performing a search could introduce unnecessary complexity and overhead, making linear search a more practical option.

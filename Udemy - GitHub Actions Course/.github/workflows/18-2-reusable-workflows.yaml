@@ -1,0 +1,22 @@
+# See 18-reusable-workflows/README.md for more information
+# about how to define reusable workflows and how to use
+# them.
+
+name: 18 - 2 - Reusable Workflows
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    uses: ./.github/workflows/18-1-reusable-workflows.yaml
+    with:
+      target-directory: dummmy-dir
+  print-outputs:
+    runs-on: ubuntu-latest
+    needs: deploy
+    steps:
+      - name: Print outputs
+        run: |
+          echo "Build status: ${{ needs.deploy.outputs.build-status }}"
+          echo "URL: ${{ needs.deploy.outputs.url }}"

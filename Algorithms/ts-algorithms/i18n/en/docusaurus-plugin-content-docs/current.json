@@ -1,0 +1,30 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.algorithmsSidebar.category.Search algorithms": {
+    "message": "Search algorithms",
+    "description": "The label for category Search algorithms in sidebar algorithmsSidebar"
+  },
+  "sidebar.algorithmsSidebar.category.Search algorithms.link.generated-index.description": {
+    "message": "In the world of programming, search algorithms are like treasure hunters looking for a hidden gem in a big pile of stones. But what exactly are search algorithms, and why should we care about them?",
+    "description": "The generated-index page description for category Search algorithms in sidebar algorithmsSidebar"
+  },
+  "sidebar.algorithmsSidebar.category.Linear search exercises": {
+    "message": "Linear search exercises",
+    "description": "The label for category Linear search exercises in sidebar algorithmsSidebar"
+  },
+  "sidebar.algorithmsSidebar.category.Linear search exercises.link.generated-index.description": {
+    "message": "Ready to master linear search? Dive in & conquer these fun exercises!",
+    "description": "The generated-index page description for category Linear search exercises in sidebar algorithmsSidebar"
+  },
+  "sidebar.algorithmsSidebar.category.Binary search exercises": {
+    "message": "Binary search exercises",
+    "description": "The label for category Binary search exercises in sidebar algorithmsSidebar"
+  },
+  "sidebar.algorithmsSidebar.category.Binary search exercises.link.generated-index.description": {
+    "message": "Ready to master binary search? Dive in & conquer these fun exercises!",
+    "description": "The generated-index page description for category Binary search exercises in sidebar algorithmsSidebar"
+  }
+}

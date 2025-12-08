@@ -1,0 +1,36 @@
+---
+sidebar_position: 3
+---
+
+import { Editor } from '../../../../../../src/algorithms/editor/editor'
+
+# 3. Sistema de Navegação da Espaçonave
+
+![Sistema de Navegação da Espaçonave](./img/2-1-3.png)
+
+Em uma galáxia distante, uma espaçonave está explorando territórios desconhecidos. O sistema de navegação da espaçonave
+depende de uma série de sinais de farol únicos emitidos por corpos celestes. Dado um array ordenado representando as
+frequências dos sinais de farol, a espaçonave precisa encontrar a frequência mais próxima de uma frequência-alvo
+especificada. No entanto, devido à interferência da radiação cósmica, alguns sinais podem estar corrompidos ou ausentes.
+Implemente uma função para encontrar a frequência mais próxima da frequência-alvo.
+
+:::note
+
+Este problema também pode ser resolvido por busca linear, mas certifique-se de resolvê-lo usando busca binária.
+
+:::
+
+```typescript
+const frequenciasDoFarol = [100, 200, 300, 400, 500]
+const frequenciaAlvo = 350
+encontrarFrequenciaMaisProxima(frequenciasDoFarol, frequenciaAlvo)
+// Saída Esperada: Índice da frequência mais próxima de 350 (2)
+```
+
+<Editor
+  editorHeight={450}
+  args="[100, 200, 300, 400, 500], 350"
+  expectedResult="2"
+  initialCode={`function encontrarFrequenciaMaisProxima (frequenciasDoFarol: number[], frequenciaAlvo: number): number {
+  return 0
+}`} />

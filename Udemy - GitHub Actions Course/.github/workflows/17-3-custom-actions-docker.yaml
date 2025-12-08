@@ -1,0 +1,38 @@
+# See 17-custom-actions/README.md for more information
+# about how to create and use custom actions in workflows.
+
+name: 17 - 3 - Custom Actions - Docker
+
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        type: choice
+        options:
+          - 'https://www.google.com'
+          - 'https://www.invalid-aidfghaidgfiazgd.com'
+          - 'invalid-aidfghaidgfiazgd'
+      max_trials:
+        description: Maximum trials until action fails.
+        default: '10'
+        required: false
+      delay:
+        description: Delay in seconds between trials.
+        default: '5'
+        required: false
+
+jobs:
+  ping-url:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Ping URL
+        id: ping-url
+        uses: ./.github/actions/docker-ping-url
+        with:
+          url: ${{ inputs.url }}
+          max_trials: ${{ inputs.max_trials }}
+          delay: ${{ inputs.delay }}
+      - name: Print output from ping url
+        run: |
+          echo "URL reachable: ${{ steps.ping-url.outputs.url-reachable }}"

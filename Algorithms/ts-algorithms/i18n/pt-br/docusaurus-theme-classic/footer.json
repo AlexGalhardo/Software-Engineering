@@ -1,0 +1,30 @@
+{
+  "link.title.Docs": {
+    "message": "Documentações",
+    "description": "The title of the footer links column with title=Docs in the footer"
+  },
+  "link.title.Community": {
+    "message": "Comunidade",
+    "description": "The title of the footer links column with title=Community in the footer"
+  },
+  "link.title.More": {
+    "message": "Mais",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Algorithms": {
+    "message": "Algoritmos",
+    "description": "The label of footer link with label=Algorithms linking to /docs/getting-started"
+  },
+  "link.item.label.Discord": {
+    "message": "Discord",
+    "description": "The label of footer link with label=Discord linking to https://discord.gg/XmkwqGHppr"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/matheussartori/ts-algorithms-docs"
+  },
+  "copyright": {
+    "message": "Feito com 💙 pela Arcvs Team. Contruído com Docusaurus.",
+    "description": "The footer copyright"
+  }
+}

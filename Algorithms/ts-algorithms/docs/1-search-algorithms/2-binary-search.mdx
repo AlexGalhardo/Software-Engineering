@@ -1,0 +1,108 @@
+---
+sidebar_position: 2
+---
+
+import { BinaryArraySearch } from '../../src/algorithms/code/binary-array-search/binary-array-search'
+
+# Binary search
+
+### Introduction
+
+Binary search is a fundamental algorithm used to efficiently find a target value within a sorted array or list. Unlike
+linear search, which sequentially checks each element, binary search utilizes the divide and conquer strategy to
+quickly narrow down the search space.
+
+:::note
+
+Although it is much faster than linear search, remember that it only works on sorted arrays.
+
+:::
+
+### How it works
+
+Binary search operates by repeatedly dividing the sorted array into halves and then determining which half the target
+value resides in. Here's a simplified step-by-step explanation:
+
+1. **Define Search Range**: Initially, the search range encompasses the entire array.
+2. **Find the Middle Element**: Calculate the middle index of the current search range.
+3. **Compare with Target**: Compare the middle element with the target value.
+4. **Adjust Search Range**: If the middle element is equal to the target, the search is successful. If the middle element is greater than the target, adjust the search range to the lower half of the array. If it's less than the target, adjust the search range to the upper half.
+5. **Repeat**: Repeat steps 3-5 until the target is found or the search range becomes empty.
+
+### Example
+
+Let's illustrate binary search with a simple TypeScript example. Suppose we have a sorted array of numbers:
+
+```typescript
+const numbers: number[] = [2, 3, 5, 6, 8, 10]
+```
+
+Now, let's try to find where the number 6 is in this array. We would write a binary search function like this:
+
+```typescript
+function binarySearch (array: number[], target: number): number {
+  if (array.length === 0) return -1 // Return -1 if the array is empty
+
+  let low = 0 // Initialize the low pointer to the beginning of the array
+  let high = array.length - 1 // Initialize the high pointer to the end of the array
+
+  while (low <= high) { // Repeat until low pointer is less than or equal to high pointer
+    const mid = Math.floor((low + high) / 2) // Calculate the middle index of the array
+
+    if (target === array[mid]) {
+      return mid // If the target is found at the middle index, return the index
+    }
+    else if (array[mid] > target) {
+      high = mid - 1 // If the target is less than the value at the middle index, move the high pointer to mid - 1
+    }
+    else {
+      low = mid + 1 // If the target is greater than the value at the middle index, move the low pointer to mid + 1
+    }
+  }
+
+  return -1 // Return -1 if the target is not found in the array
+}
+```
+
+Let's use this function to find the index of the number 6 in the numbers array:
+
+```typescript
+const targetIndex = binarySearch(numbers, 6)
+console.log("Index of 6:", targetIndex) // Output: Index of 6: 3
+```
+
+### Visual Example
+
+#### Element exists in array: `21`
+
+<BinaryArraySearch array={[1, 4, 7, 9, 12, 15, 16, 17, 21, 25]} element={21} />
+
+<hr />
+
+#### Element does not exists in array: `3`
+
+<BinaryArraySearch array={[2, 4, 5, 7, 9, 10, 13, 18, 22, 31]} element={3} />
+
+### Advantages of Binary Search
+
+Binary search offers several advantages over linear search:
+
+- **Optimization**: By dividing the search space in half with each iteration, binary search rapidly converges on the
+target value, minimizing the number of comparisons required.
+- **Sorted Data Requirement**: Although binary search requires the array to be sorted initially, the performance gains
+it offers often outweigh the overhead of sorting. It's worth noting, however, that sorting the array incurs its own
+computational cost. Therefore, it's generally only worth sorting the array if you anticipate using it multiple times
+for searches.
+
+### Use Cases
+Binary search is particularly useful in scenarios where quick retrieval of data from a sorted collection is necessary.
+Some common use cases include:
+
+1. **Database Queries**: Binary search is employed in database systems for efficient retrieval of records based on
+indexed keys.
+2. **Search Algorithms**: It serves as a building block for various search algorithms, including tree-based data
+structures like binary search trees.
+3. **Sorting Algorithms**: Binary search is utilized in sorting algorithms like merge sort and quicksort for
+partitioning and searching elements.
+
+Binary search is a powerful algorithm that significantly enhances search efficiency, especially for large datasets, by leveraging the inherent structure of sorted arrays.

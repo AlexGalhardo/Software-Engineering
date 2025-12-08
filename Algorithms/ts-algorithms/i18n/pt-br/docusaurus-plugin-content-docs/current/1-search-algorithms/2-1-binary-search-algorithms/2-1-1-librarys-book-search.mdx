@@ -1,0 +1,37 @@
+---
+sidebar_position: 1
+---
+
+import { Editor } from '../../../../../../src/algorithms/editor/editor'
+
+# 1. Busca de Livro na Biblioteca
+
+![Busca de Livro na Biblioteca](./img/2-1-1.png)
+
+Em uma vasta biblioteca contendo milhares de livros, cada livro é rotulado com um número de identificação único. A
+bibliotecária Jane precisa localizar um livro específico solicitado por um usuário. Dado um array representando os
+números de identificação dos livros na biblioteca, ajude a bibliotecária Jane a encontrar o índice do livro com o
+número de identificação especificado.
+
+Se o número de identificação especificado não for encontrado, retorne -1.
+
+:::note
+
+Este problema também pode ser resolvido por busca linear, mas certifique-se de resolvê-lo usando busca binária.
+
+:::
+
+```typescript
+const livrosDaBiblioteca = [102, 205, 308, 410, 523, 636, 749, 852, 965, 1078]
+const idDoLivro = 410
+encontrarIndiceDoLivro(livrosDaBiblioteca, idDoLivro)
+// Saída Esperada: Índice do livro com ID 410 (3)
+```
+
+<Editor
+  editorHeight={450}
+  args="[102, 205, 308, 410, 523, 636, 749, 852, 965, 1078], 410"
+  expectedResult="3"
+  initialCode={`function encontrarIndiceDoLivro (livrosDaBiblioteca: number[], idDoLivro: number): number {
+  return -1
+}`} />

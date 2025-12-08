@@ -1,0 +1,39 @@
+---
+sidebar_position: 3
+---
+
+import { Editor } from '../../../../../../src/algorithms/editor/editor'
+
+# 3. Encontrando a Ideia Brilhante do Bob
+
+![Encontrando a Ideia Brilhante do Bob](./img/1-1-3.png)
+
+Você é um professor responsável por um projeto de classe onde cada aluno contribui com suas ideias. Você coletou as
+propostas de projeto dos seus alunos e agora precisa encontrar a proposta do Bob para revisá-la. A proposta do Bob
+contém ideias inovadoras crucial para o sucesso do projeto.
+
+Se a proposta do Bob não for encontrada, retorne -1.
+
+```typescript
+const propostasDoProjeto = [
+  { name: "Alice", idea: "Idea A" },
+  { name: "Bob", idea: "Idea B" },
+  { name: "Charlie", idea: "Idea C" }
+]
+const nomeAlvo = "Bob"
+encontrarIndiceDaPropostaPeloNome(propostasDoProjeto, nomeAlvo)
+// Expected Output: Index of Bob's proposal (1)
+```
+
+<Editor
+  editorHeight={250}
+  args='[{ name: "Alice", idea: "Idea A" }, { name: "Bob", idea: "Idea B" }, { name: "Charlie", idea: "Idea C" }], "Bob"'
+  expectedResult="1"
+  initialCode={`type ProjectProposal = {
+  name: string
+  idea: string
+}
+
+function encontrarIndiceDaPropostaPeloNome (propostasDoProjeto: ProjectProposal[], nomeAlvo: string): number {
+  return -1
+}`} />

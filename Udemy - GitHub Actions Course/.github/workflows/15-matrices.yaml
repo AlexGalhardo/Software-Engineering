@@ -1,0 +1,60 @@
+# See 15-matrices/README.md for more information
+# about how to leverage matrices within workflows.
+
+name: 15 - Working with Matrices
+
+on:
+  workflow_dispatch:
+
+jobs:
+  backwards-compatibility:
+    name: ${{ matrix.os }}-${{ matrix.node-version }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: true
+      matrix:
+        node-version: [18.x, 20.x, 21.x]
+        os:
+          - ubuntu-latest
+          - windows-latest
+        include:
+          - os: ubuntu-latest
+            node-version: 16.x
+          - os: ubuntu-latest
+            node-version: 21.x
+            tag: experimental
+    steps:
+      - name: Setup node
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Perform some tests
+        run: |
+          echo "Running tests on OS ${{ matrix.os }} and NodeJS ${{ matrix.node-version }}"
+      - name: Upload test results
+        run: echo "Uploading test results"
+  include-example:
+    name: ${{ matrix.color }}-${{ matrix.shape }}-${{ matrix.size }}-${{ matrix.opacity }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        color: [red, green]
+        shape: [circle, square]
+        size: [small, large]
+        include:
+          - color: red
+            opacity: 75
+          - shape: circle
+            opacity: 100
+          - color: red
+            shape: triangle
+          - opacity: 50
+          - color: green
+            shape: circle
+            size: medium
+        exclude:
+          - color: green
+            shape: circle
+    steps:
+      - name: Dummy step
+        run: echo "${{ matrix.color }}-${{ matrix.shape }}-${{ matrix.size }}-${{ matrix.opacity }}"

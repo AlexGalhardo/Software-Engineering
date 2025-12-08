@@ -1,0 +1,13 @@
+nro de registros = 9
+ _____________________________________________________________________
+|NRO    |NOME                                    |VEICULO             |
+|010    |Jose da Silva                           |fusca               |
+|005    |Maria                                   |chevete             |
+|007    |Maria                                   |fusca               |
+|123    |Sebastiao                               |brasilia            |
+|150    |Jose                                    |variant             |
+|001    |Elisete                                 |vemaguete           |
+|035    |Sebastiao                               |landau              |
+|040    |Doralice                                |opala               |
+|200    |Clotilde                                |maverick            |
+ ---------------------------------------------------------------------

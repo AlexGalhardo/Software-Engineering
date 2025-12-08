@@ -1,0 +1,36 @@
+---
+sidebar_position: 5
+---
+
+import { Editor } from '../../../../../../src/algorithms/editor/editor'
+
+# 5. Análise de Mutação Genética
+
+![Análise de Mutação Genética](./img/2-1-5.png)
+
+Em uma instalação de pesquisa genética de ponta, cientistas estão analisando sequências de DNA para identificar
+mutações potenciais. Cada sequência de DNA é representada como uma cadeia de nucleotídeos, onde cada nucleotídeo pode
+ser uma das quatro letras: A, C, G ou T. A equipe de pesquisa descobriu que certas sequências de nucleotídeos são
+indicativas de mutações específicas. Dado um array ordenado de sequências de DNA, implemente uma função para procurar
+por uma sequência de DNA alvo e determinar se ela contém alguma mutação.
+
+:::note
+
+Este problema também pode ser resolvido por busca linear, mas certifique-se de resolvê-lo usando busca binária.
+
+:::
+
+```typescript
+const sequenciasDNA = ['ACGT', 'CGTA', 'GTAC', 'TACG', 'ATCG']
+const sequenciaAlvo = 'ATCG'
+procurarMutacao(sequenciasDNA, sequenciaAlvo)
+// Saída Esperada: Índice da sequência de DNA alvo (true)
+```
+
+<Editor
+  editorHeight={450}
+  args="['ACGT', 'CGTA', 'GTAC', 'TACG', 'ATCG'], 'ATCG'"
+  expectedResult={true}
+  initialCode={`function procurarMutacao (sequenciasDNA: string[], sequenciaAlvo: string): boolean {
+  return false
+}`} />

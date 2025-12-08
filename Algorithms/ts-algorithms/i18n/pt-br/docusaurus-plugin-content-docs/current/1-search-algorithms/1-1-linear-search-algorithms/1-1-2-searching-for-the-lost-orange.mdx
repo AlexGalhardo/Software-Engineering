@@ -1,0 +1,30 @@
+---
+sidebar_position: 2
+---
+
+import { Editor } from '../../../../../../src/algorithms/editor/editor'
+
+# 2. Procurando pela Laranja Perdida
+
+![Procurando pela Laranja Perdida](./img/1-1-2.png)
+
+Você está organizando uma cesta de frutas para um piquenique. No entanto, você perdeu uma das frutas, uma laranja, na
+cesta. Sua amiga, Sarah, é alérgica a laranjas e não pode ajudar na busca. Você precisa encontrar rapidamente a laranja
+para garantir a segurança da Sarah.
+
+Se não houver laranjas na cesta, retorne -1.
+
+```typescript
+const cestaDeFrutas = ["maçã", "banana", "uva", "laranja"]
+const frutaAlvo = "laranja"
+encontrarIndiceDaLaranjaNaCesta(cestaDeFrutas, frutaAlvo)
+// Expected Output: Index of orange in the basket (3)
+```
+
+<Editor
+  editorHeight={150}
+  args='["apple", "banana", "grape", "orange"], "orange"'
+  expectedResult="3"
+  initialCode={`function encontrarIndiceDaLaranjaNaCesta (cestaDeFrutas: string[], frutaAlvo: string): number {
+  return -1
+}`} />

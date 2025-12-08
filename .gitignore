@@ -1,0 +1,3 @@
+.terraform/
+node_modules/
+.env

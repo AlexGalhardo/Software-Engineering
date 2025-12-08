@@ -1,0 +1,40 @@
+# See 09-functions/README.md for more information
+# about using functions in workflows, as well as
+# commonly used functions and their features.
+
+name: 09 - Using Functions
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  echo1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print PR title
+        run: echo "${{ github.event.pull_request.title }}"
+      - name: Print PR labels
+        run: |
+          cat << EOF
+          ${{ toJSON(github.event.pull_request.labels) }}
+          EOF
+      - name: Bug step
+        if: ${{ !cancelled() && contains(github.event.pull_request.title, 'fix') }}
+        run: echo "I am a bug fix"
+      - name: Sleep for 20 seconds
+        run: sleep 20
+      - name: Failing step
+        run: exit 1
+      - name: I will be skipped
+        if: ${{ success() }}
+        run: echo "I will print if previous steps succeed."
+      - name: I will execute
+        if: ${{ failure() }}
+        run: echo "I will print if any previous step fails."
+      - name: I will execute
+        if: ${{ !cancelled() }}
+        run: echo "I will always print, except when the workflow is cancelled."
+      - name: I will execute when cancelled
+        if: ${{ cancelled() }}
+        run: echo "I will print if the workflow has been cancelled."
